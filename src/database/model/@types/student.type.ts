@@ -11,9 +11,9 @@ export interface IStudent {
 }
 
 export interface QueryParams {
-  fullName?: {
+  fullName: {
     en: string;
     km: string;
   };
-  phoneNumber?: string;
+  phoneNumber: string;
 }

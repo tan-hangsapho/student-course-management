@@ -1,8 +1,9 @@
 import express from "express";
 import { errorHandler } from "./middlewares/error-handler";
 import loggerMiddleware from "./middlewares/logger-handler";
-import { studentRoutes } from "./routes/student.routes";
+// import { studentRoutes } from "./routes/student.routes";
 import bodyParser from "body-parser";
+import { studentRoutes } from "./routes/student.routes";
 
 export const app = express();
 

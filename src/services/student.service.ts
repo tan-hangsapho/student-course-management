@@ -1,4 +1,4 @@
-import { IStudent, QueryParams } from "../database/model/@types/student.type";
+import { IStudent } from "../database/model/@types/student.type";
 import { StudentUpdate } from "../database/repositories/@types/student.type";
 import { StudentRepository } from "../database/repositories/student.repo";
 
@@ -21,13 +21,14 @@ export class StudentService {
       throw error;
     }
   }
-  async findStudentByQueries(queryParams: QueryParams) {
+  async findStudentByQueries(query: string) {
     try {
-      return await this.stdRepo.findStudent(queryParams);
+      return await this.stdRepo.search(query);
     } catch (error) {
       throw error;
     }
   }
+
   async updateStudent(stdId: string, studentData: StudentUpdate) {
     try {
       return await this.stdRepo.update(stdId, studentData);

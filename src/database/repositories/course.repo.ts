@@ -1,14 +1,15 @@
 // import { FilterQuery } from "mongoose";
 import APIError from "../../errors/api-error";
 import { StatusCode } from "../../utils/consts";
-import { IStudent } from "../model/@types/student.type";
+import { ICourse } from "../model/@types/course.type";
+import { CourseModel } from "../model/course.model";
 import { StudentModel } from "../model/student.model";
-import { StudentUpdate } from "./@types/student.type";
+import { CourseUpdate } from "./@types/student.type";
 
-export class StudentRepository {
-  async createStudent(stdData: IStudent) {
+export class CourseRepository {
+  async createCourse(courseData: ICourse) {
     try {
-      const std = await StudentModel.create(stdData);
+      const std = await CourseModel.create(courseData);
       return std;
     } catch (error) {
       throw error;
@@ -16,31 +17,31 @@ export class StudentRepository {
   }
   async findById(id: string) {
     try {
-      return await StudentModel.findById(id).where({ isDeleted: false });
+      return await CourseModel.findById(id).where({ isDeleted: false });
     } catch (error) {
       throw error;
     }
   }
-  async search(query: string) {
-    try {
-      return StudentModel.find({
-        $or: [
-          { fullNameEN: new RegExp(query, "i") },
-          { phoneNumber: new RegExp(query, "i") },
-        ],
-        isDeleted: false,
-      });
-    } catch (error) {
-      throw error;
-    }
-  }
-  async update(id: string, studentData: StudentUpdate) {
+  // async search(query: string) {
+  //   try {
+  //     return StudentModel.find({
+  //       $or: [
+  //         { fullNameEN: new RegExp(query, "i") },
+  //         { phoneNumber: new RegExp(query, "i") },
+  //       ],
+  //       isDeleted: false,
+  //     });
+  //   } catch (error) {
+  //     throw error;
+  //   }
+  // }
+  async update(id: string, courseData: CourseUpdate) {
     try {
       const isExisting = await this.findById(id);
       if (!isExisting) {
         throw new APIError("Student not found", StatusCode.NotFound);
       }
-      return await StudentModel.findByIdAndUpdate(id, studentData, {
+      return await CourseModel.findByIdAndUpdate(id, courseData, {
         new: true,
       });
     } catch (error) {

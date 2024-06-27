@@ -5,5 +5,6 @@ export const studentRoutes = Router();
 const studentController = new StudentController();
 studentRoutes.post("/", studentController.createStudent);
 studentRoutes.get("/:id", studentController.getStudentById);
+studentRoutes.get("/", studentController.queryStudent);
 studentRoutes.put("/:id", studentController.updateStudent);
 studentRoutes.delete("/:id", studentController.deleteStudent);

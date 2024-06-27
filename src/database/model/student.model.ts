@@ -7,10 +7,13 @@ const StudentSchema = new mongoose.Schema(
       en: { type: String, required: true },
       km: { type: String, required: true },
     },
-    DOB: { type: Date, required: true },
+    DOB: {
+      type: Date,
+      required: true,
+    },
     gender: { type: String, enum: ["Male", "Female", "Other"], required: true },
     phoneNumber: { type: String, required: true, unique: true },
-    isDeleted: { type: Boolean },
+    isDeleted: { type: Boolean, default: false },
   },
 
   {

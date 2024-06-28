@@ -26,4 +26,6 @@ const StudentSchema = new mongoose.Schema(
   }
 );
 
+StudentSchema.index({ "fullName.en": "text", "fullName.km": "text" });
+
 export const StudentModel = mongoose.model("Student", StudentSchema);

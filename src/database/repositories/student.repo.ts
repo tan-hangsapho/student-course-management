@@ -3,7 +3,7 @@ import APIError from "../../errors/api-error";
 import { StatusCode } from "../../utils/consts";
 import { IStudent } from "../model/@types/student.type";
 import { StudentModel } from "../model/student.model";
-import { StudentUpdate } from "./@types/student.type";
+import { QueryParams, StudentUpdate } from "./@types/student.type";
 
 export class StudentRepository {
   async createStudent(stdData: IStudent) {
@@ -21,15 +21,21 @@ export class StudentRepository {
       throw error;
     }
   }
-  async search(query: string) {
+  async search(queryParam: QueryParams) {
     try {
-      return StudentModel.find({
-        $or: [
-          { fullNameEN: new RegExp(query, "i") },
-          { phoneNumber: new RegExp(query, "i") },
-        ],
+      const { query } = queryParam;
+      const search: { [key: string]: any } = {
         isDeleted: false,
-      });
+      };
+
+      if (query) {
+        search.$or = [
+          { "fullName.en": { $regex: query, $options: "i" } },
+          { "fullName.km": { $regex: query, $options: "i" } },
+        ];
+      }
+
+      return await StudentModel.find(search);
     } catch (error) {
       throw error;
     }

@@ -4,6 +4,7 @@ import loggerMiddleware from "./middlewares/logger-handler";
 // import { studentRoutes } from "./routes/student.routes";
 import bodyParser from "body-parser";
 import { studentRoutes } from "./routes/student.routes";
+import { courseRoutes } from "./routes/course.route";
 
 export const app = express();
 
@@ -15,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Connect to MongoDB
 app.use("/students", studentRoutes);
-
+app.use("/course", courseRoutes);
 app.use(loggerMiddleware);
 
 // Global Error Handler

@@ -1,10 +1,9 @@
 import { StudentService } from "src/services/student.service";
-import { NextFunction, Request, Response } from "express";
 import { StatusCode } from "src/utils/consts";
 import { logger } from "src/utils/logger";
 import { IStudent } from "src/database/model/@types/student.type";
 import APIError from "src/errors/api-error";
-import { StudentUpdate } from "src/database/repositories/@types/student.type";
+import { QueryParams, StudentUpdate } from "src/database/repositories/@types/student.type";
 
 export class StudentController {
   private stdService: StudentService;
@@ -30,17 +29,11 @@ export class StudentController {
       throw new APIError(error.message, StatusCode.NotFound);
     }
   }
-  async searchStudents(
-    req: Request,
-    res: Response,
-    next: NextFunction
-  ): Promise<void> {
+  async searchStudents(query: QueryParams) {
     try {
-      const query = req.query.q as string;
-      const students = await this.stdService.findStudentByQueries(query);
-      res.status(200).json(students);
+      return await this.stdService.findStudentByQueries(query);
     } catch (error: any) {
-      next(error);
+      throw new APIError(error.message, StatusCode.InternalServerError);
     }
   }
   async updateStudent(stdId: string, updateStd: StudentUpdate) {

@@ -13,3 +13,7 @@ export interface CourseUpdate {
   startDate: Date;
   endDate: Date;
 }
+
+export interface QueryParams {
+  query: string;
+}

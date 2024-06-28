@@ -10,10 +10,4 @@ export interface IStudent {
   isDeleted?: boolean;
 }
 
-export interface QueryParams {
-  fullName: {
-    en: string;
-    km: string;
-  };
-  phoneNumber: string;
-}
+

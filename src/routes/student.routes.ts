@@ -41,7 +41,23 @@ studentRoutes.get(
     }
   }
 );
-// studentRoutes.get("/search", studentController.searchStudents);
+studentRoutes.get(
+  "/search",
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const query = req.query.query as string;
+      if (!query) {
+        return res
+          .status(StatusCode.BadRequest)
+          .json({ message: "Query parameter is required" });
+      }
+      const students = await studentController.searchStudents({ query });
+      res.json(students);
+    } catch (error: unknown | any) {
+      next(error);
+    }
+  }
+);
 studentRoutes.put(
   "/:id",
   async (req: Request, res: Response, next: NextFunction) => {

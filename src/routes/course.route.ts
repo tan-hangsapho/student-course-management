@@ -22,6 +22,62 @@ courseRoutes.post(
   }
 );
 courseRoutes.get(
+  "/date",
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const query = req.query;
+      const course = await courseController.filterCoursesByDate(query);
+      if (!course) {
+        return res
+          .status(StatusCode.BadRequest)
+          .json({ message: "Error query course" });
+      }
+      res.status(StatusCode.OK).json({
+        message: "Filter Date successfully",
+        data: course,
+      });
+    } catch (error: unknown | any) {
+      next(error);
+    }
+  }
+);
+courseRoutes.get(
+  "/search",
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const query = req.query;
+      const course = await courseController.searchCourseNameandPro(query);
+      if (!course) {
+        return res
+          .status(StatusCode.BadRequest)
+          .json({ message: "Error query Student" });
+      }
+      res.status(StatusCode.OK).json({
+        message: "Search course successfully",
+        data: course,
+      });
+    } catch (error: unknown | any) {
+      next(error);
+    }
+  }
+);
+courseRoutes.get(
+  "/report",
+  async (_req: Request, res: Response, next: NextFunction) => {
+    try {
+      const data = await courseController.getCoursesReport();
+      if (data.length === 0) {
+        throw new APIError("No course found", StatusCode.NotFound);
+      }
+      return res
+        .status(StatusCode.OK)
+        .send({ message: "Get Report Sucessfully", data: data });
+    } catch (error: unknown | any) {
+      next(error);
+    }
+  }
+);
+courseRoutes.get(
   "/:id",
   async (req: Request, res: Response, next: NextFunction) => {
     try {
@@ -34,7 +90,8 @@ courseRoutes.get(
     }
   }
 );
-courseRoutes.put(
+
+courseRoutes.patch(
   "/:id",
   async (req: Request, res: Response, next: NextFunction) => {
     try {

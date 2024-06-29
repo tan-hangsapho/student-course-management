@@ -1,4 +1,5 @@
 // import { FilterQuery } from "mongoose";
+import { logger } from "src/utils/logger";
 import APIError from "../../errors/api-error";
 import { StatusCode } from "../../utils/consts";
 import { IStudent } from "../model/@types/student.type";
@@ -16,27 +17,34 @@ export class StudentRepository {
   }
   async findById(id: string) {
     try {
-      return await StudentModel.findById(id).where({ isDeleted: false });
+      const student = await StudentModel.findById(id).where({
+        isDeleted: false,
+      });
+
+      return student;
     } catch (error) {
       throw error;
     }
   }
-  async search(queryParam: QueryParams) {
+  async findStudentByQuery(query: QueryParams) {
     try {
-      const { query } = queryParam;
-      const search: { [key: string]: any } = {
+      const { km, en, phoneNumber } = query;
+
+      const search: { [key: string]: any } = {};
+      if (en) search["fullName.en"] = { $regex: en, $options: "i" };
+      if (km) search["fullName.km"] = km;
+      if (phoneNumber) search.phoneNumber = phoneNumber;
+
+      const allStudent = await StudentModel.find(search ? search : {}).where({
         isDeleted: false,
-      };
+      });
 
-      if (query) {
-        search.$or = [
-          { "fullName.en": { $regex: query, $options: "i" } },
-          { "fullName.km": { $regex: query, $options: "i" } },
-        ];
+      if (allStudent.length === 0) {
+        throw new APIError("Cannot find student", StatusCode.BadRequest);
       }
-
-      return await StudentModel.find(search);
-    } catch (error) {
+      return allStudent;
+    } catch (error: unknown | any) {
+      logger.error(`An error occurred in findStudentByQuery(): ${error}`);
       throw error;
     }
   }
@@ -49,6 +57,32 @@ export class StudentRepository {
       return await StudentModel.findByIdAndUpdate(id, studentData, {
         new: true,
       });
+    } catch (error) {
+      throw error;
+    }
+  }
+  async findStudentsReport() {
+    const students = await StudentModel.find({ isDeleted: false }).select(
+      "fullName DOB gender phoneNumber courseEnrolled"
+    );
+    // .populate("courseEnrolled", "courseName");
+    console.log("Populated Students Data:", students);
+
+    const report = students.map((student) => ({
+      fullName: student.fullName,
+      DOB: student.DOB,
+      gender: student.gender,
+      phoneNumber: student.phoneNumber,
+      numberOfCourses: student.courseEnrolled.length,
+    }));
+
+    console.log("Generated Report:", report);
+
+    return report;
+  }
+  async findAllStudent() {
+    try {
+      return await StudentModel.find().where({ isDeleted: false });
     } catch (error) {
       throw error;
     }

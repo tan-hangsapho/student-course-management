@@ -1,5 +1,9 @@
 import { CourseRepository } from "src/database/repositories/course.repo";
-import { CourseUpdate } from "../database/repositories/@types/student.type";
+import {
+  CourseUpdate,
+  FilterQuery,
+  QueryCourse,
+} from "../database/repositories/@types/student.type";
 import { ICourse } from "src/database/model/@types/course.type";
 
 export class CourseService {
@@ -21,14 +25,20 @@ export class CourseService {
       throw error;
     }
   }
-  //   async findStudentByQueries(query: string) {
-  //     try {
-  //       return await this.stdRepo.search(query);
-  //     } catch (error) {
-  //       throw error;
-  //     }
-  //   }
-
+  async searchCourseByName(queryCourse: QueryCourse) {
+    try {
+      return await this.courseRepo.searchCoursesByNameOrProfessor(queryCourse);
+    } catch (error) {
+      throw error;
+    }
+  }
+  async searchFilter(queryDate: FilterQuery) {
+    try {
+      return await this.courseRepo.filterCoursesByDateRange(queryDate);
+    } catch (error) {
+      throw error;
+    }
+  }
   async updateCourse(courseId: string, courseData: CourseUpdate) {
     try {
       return await this.courseRepo.update(courseId, courseData);
@@ -36,6 +46,14 @@ export class CourseService {
       throw error;
     }
   }
+  async getCoursesReport() {
+    try {
+      return await this.courseRepo.findCoursesReport();
+    } catch (error) {
+      throw error;
+    }
+  }
+
   async deleteCourse(courseId: string) {
     try {
       return await this.courseRepo.softDelete(courseId);

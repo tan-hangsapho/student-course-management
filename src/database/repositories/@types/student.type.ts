@@ -3,17 +3,28 @@ export interface StudentUpdate {
     en: string;
     km: string;
   };
-  dateOfBirth: Date;
-  gender: "Male" | "Female" | "Other";
-  phoneNumber: string;
+  dateOfBirth?: Date;
+  gender?: "Male" | "Female" | "Other";
+  phoneNumber?: string;
 }
 export interface CourseUpdate {
-  courseName: string;
-  professorName: string;
-  startDate: Date;
-  endDate: Date;
+  courseName?: string;
+  professorName?: string;
+  startDate?: Date;
+  endDate?: Date;
 }
 
 export interface QueryParams {
-  query: string;
+  en?: string;
+  km?: string;
+  phoneNumber?: string;
+}
+export interface QueryCourse {
+  courseName?: string;
+  professorName?: string;
+}
+
+export interface FilterQuery {
+  startDate?: Date;
+  endDate?: Date;
 }

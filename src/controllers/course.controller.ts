@@ -1,5 +1,9 @@
 import { ICourse } from "src/database/model/@types/course.type";
-import { CourseUpdate } from "src/database/repositories/@types/student.type";
+import {
+  CourseUpdate,
+  FilterQuery,
+  QueryCourse,
+} from "src/database/repositories/@types/student.type";
 import APIError from "src/errors/api-error";
 import { CourseService } from "src/services/course.service";
 import { StatusCode } from "src/utils/consts";
@@ -21,14 +25,34 @@ export class CourseController {
       );
     }
   }
+  async searchCourseNameandPro(queryCourse: QueryCourse) {
+    try {
+      return await this.courseService.searchCourseByName(queryCourse);
+    } catch (error: unknown | any) {
+      logger.error("Error search course:", error);
+      throw new APIError(
+        `An error occurred during search course: ${error.message}`,
+        error.statusCode || StatusCode.BadRequest
+      );
+    }
+  }
+  async filterCoursesByDate(queryDate: FilterQuery) {
+    try {
+      return await this.courseService.searchFilter(queryDate);
+    } catch (error: unknown | any) {}
+  }
   async getCourseById(courseId: string) {
     try {
       return await this.courseService.getCourseById(courseId);
     } catch (error: unknown | any) {
-      logger.error("Error get course:", error);
-      throw new APIError(error.message, StatusCode.NotFound);
+      logger.error("Error creating course:", error);
+      throw new APIError(
+        `An error occurred during create course: ${error.message}`,
+        error.statusCode || StatusCode.BadRequest
+      );
     }
   }
+
   async updateCourse(courseId: string, updateCourse: CourseUpdate) {
     try {
       const isStdExisted = await this.getCourseById(courseId);
@@ -38,10 +62,21 @@ export class CourseController {
 
       return await this.courseService.updateCourse(courseId, updateCourse);
     } catch (error: unknown | any) {
-      logger.error("Error updating course:", error);
+      logger.error("Error update student:", error);
       throw new APIError(
-        "An error occurred during updating student",
-        StatusCode.InternalServerError
+        `An error occurred during update course: ${error.message}`,
+        error.statusCode || StatusCode.InternalServerError
+      );
+    }
+  }
+  async getCoursesReport() {
+    try {
+      return await this.courseService.getCoursesReport();
+    } catch (error: unknown | any) {
+      logger.error("Error update student:", error);
+      throw new APIError(
+        `An error occurred during update course: ${error.message}`,
+        error.statusCode || StatusCode.InternalServerError
       );
     }
   }
@@ -49,11 +84,10 @@ export class CourseController {
     try {
       return await this.courseService.deleteCourse(courseId);
     } catch (error: unknown | any) {
-      logger.error("Error deleting course:", error);
-
+      logger.error("Error delete course:", error);
       throw new APIError(
-        "An error occurred during deleting student",
-        StatusCode.InternalServerError
+        `An error occurred during delete course: ${error.message}`,
+        error.statusCode || StatusCode.InternalServerError
       );
     }
   }

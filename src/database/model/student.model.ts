@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 
 const StudentSchema = new mongoose.Schema(
   {
-    courseEnrolled: [{ type: mongoose.Schema.ObjectId, ref: "Course" }],
     fullName: {
       en: { type: String, required: true },
       km: { type: String, required: true },
@@ -14,8 +13,8 @@ const StudentSchema = new mongoose.Schema(
     gender: { type: String, enum: ["Male", "Female", "Other"], required: true },
     phoneNumber: { type: String, required: true, unique: true },
     isDeleted: { type: Boolean, default: false },
+    courseEnrolled: [{ type: mongoose.Schema.ObjectId, ref: "Course" }],
   },
-
   {
     toJSON: {
       transform(_doc, ret) {
@@ -25,7 +24,5 @@ const StudentSchema = new mongoose.Schema(
     },
   }
 );
-
-StudentSchema.index({ "fullName.en": "text", "fullName.km": "text" });
 
 export const StudentModel = mongoose.model("Student", StudentSchema);

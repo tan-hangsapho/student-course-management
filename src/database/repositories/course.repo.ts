@@ -3,8 +3,7 @@ import APIError from "../../errors/api-error";
 import { StatusCode } from "../../utils/consts";
 import { ICourse } from "../model/@types/course.type";
 import { CourseModel } from "../model/course.model";
-import { StudentModel } from "../model/student.model";
-import { CourseUpdate } from "./@types/student.type";
+import { CourseUpdate, FilterQuery, QueryCourse } from "./@types/student.type";
 
 export class CourseRepository {
   async createCourse(courseData: ICourse) {
@@ -22,19 +21,73 @@ export class CourseRepository {
       throw error;
     }
   }
-  // async search(query: string) {
-  //   try {
-  //     return StudentModel.find({
-  //       $or: [
-  //         { fullNameEN: new RegExp(query, "i") },
-  //         { phoneNumber: new RegExp(query, "i") },
-  //       ],
-  //       isDeleted: false,
-  //     });
-  //   } catch (error) {
-  //     throw error;
-  //   }
-  // }
+  async searchCoursesByNameOrProfessor(queryCourse: QueryCourse) {
+    try {
+      const { courseName, professorName } = queryCourse;
+      const searchConditions: { [key: string]: any } = { isDeleted: false };
+      if (courseName)
+        searchConditions.courseName = { $regex: courseName, $options: "i" };
+      if (professorName)
+        searchConditions.professorName = {
+          $regex: professorName,
+          $options: "i",
+        };
+
+      const allCourse = await CourseModel.find(
+        searchConditions ? searchConditions : {}
+      );
+      console.log("Course", allCourse);
+      if (allCourse.length === 0) {
+        throw new APIError("Course cannot Found", StatusCode.BadRequest);
+      }
+      return allCourse;
+    } catch (error) {
+      throw error;
+    }
+  }
+  async filterCoursesByDateRange(queryDate: FilterQuery) {
+    try {
+      const { startDate, endDate } = queryDate;
+      const filterConditions: { [key: string]: any } = { isDeleted: false };
+      if (startDate)
+        filterConditions.startDate = { $gte: startDate, $options: "i" };
+      if (endDate)
+        filterConditions.endDate = {
+          $lte: endDate,
+          $options: "i",
+        };
+      const allCourse = await CourseModel.find(filterConditions);
+      if (allCourse.length === 0) {
+        throw new APIError("Course can not Found", StatusCode.BadRequest);
+      }
+      return allCourse;
+    } catch (error) {
+      throw error;
+    }
+  }
+  async findCoursesReport() {
+    try {
+      const courses = await CourseModel.find({ isDeleted: false })
+        .select(
+          "courseName professorName startDate endDate limitNumberOfStudents studentEnrolled"
+        )
+        .populate("studentEnrolled", "fullName");
+
+      const report = courses.map((course) => ({
+        courseName: course.courseName,
+        professorName: course.professorName,
+        startDate: course.startDate,
+        endDate: course.endDate,
+        limitNumberOfStudents: course.limitNumberOfStudents,
+        numberOfRegisteredStudents: course.studentEnrolled.length,
+      }));
+
+      return report;
+    } catch (error) {
+      throw error;
+    }
+  }
+
   async update(id: string, courseData: CourseUpdate) {
     try {
       const isExisting = await this.findById(id);
@@ -43,7 +96,7 @@ export class CourseRepository {
       }
       return await CourseModel.findByIdAndUpdate(id, courseData, {
         new: true,
-      });
+      }).where({ isDelete: false });
     } catch (error) {
       throw error;
     }
@@ -54,7 +107,7 @@ export class CourseRepository {
       if (!isExisting) {
         throw new APIError("Student not found", StatusCode.NotFound);
       }
-      return await StudentModel.findByIdAndUpdate(
+      return await CourseModel.findByIdAndUpdate(
         id,
         { isDeleted: true },
         { new: true }

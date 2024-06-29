@@ -3,11 +3,14 @@ import { StudentController } from "src/controllers/student.controller";
 import { Request, Response, NextFunction } from "express";
 import { StatusCode } from "src/utils/consts/status-code";
 import APIError from "src/errors/api-error";
+import validateInput from "src/middlewares/validation-input";
+import { StudentSchema } from "src/schemas/student.schema";
 
 export const studentRoutes = Router();
 const studentController = new StudentController();
 studentRoutes.post(
   "/",
+  validateInput(StudentSchema),
   async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { fullName, DOB, gender, phoneNumber } = req.body;
@@ -29,10 +32,47 @@ studentRoutes.post(
   }
 );
 studentRoutes.get(
+  "/search",
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const query = req.query;
+      const students = await studentController.searchStudents(query);
+      if (!students) {
+        return res
+          .status(StatusCode.BadRequest)
+          .json({ message: "Error query Student" });
+      }
+      res.status(StatusCode.OK).json({
+        message: "Search Student successfully",
+        data: students,
+      });
+    } catch (error: unknown | any) {
+      next(error);
+    }
+  }
+);
+studentRoutes.get(
+  "/report",
+  async (_req: Request, res: Response, next: NextFunction) => {
+    try {
+      const data = await studentController.getStudentReport();
+      if (data.length === 0) {
+        throw new APIError("No student found", StatusCode.NotFound);
+      }
+      return res
+        .status(StatusCode.OK)
+        .send({ message: "Get Report Sucessfully", data: data });
+    } catch (error: unknown | any) {
+      next(error);
+    }
+  }
+);
+studentRoutes.get(
   "/:id",
   async (req: Request, res: Response, next: NextFunction) => {
     try {
       const response = await studentController.getStudentById(req.params.id);
+
       return res
         .status(StatusCode.OK)
         .send({ message: "Get Student Successfully", data: response });
@@ -41,24 +81,8 @@ studentRoutes.get(
     }
   }
 );
-studentRoutes.get(
-  "/search",
-  async (req: Request, res: Response, next: NextFunction) => {
-    try {
-      const query = req.query.query as string;
-      if (!query) {
-        return res
-          .status(StatusCode.BadRequest)
-          .json({ message: "Query parameter is required" });
-      }
-      const students = await studentController.searchStudents({ query });
-      res.json(students);
-    } catch (error: unknown | any) {
-      next(error);
-    }
-  }
-);
-studentRoutes.put(
+
+studentRoutes.patch(
   "/:id",
   async (req: Request, res: Response, next: NextFunction) => {
     try {
@@ -88,6 +112,50 @@ studentRoutes.delete(
       return res
         .status(StatusCode.OK)
         .send({ message: "Delete Student Successfully" });
+    } catch (error) {
+      next(error);
+    }
+  }
+);
+
+studentRoutes.post(
+  "/:stdId/enroll/:courseId",
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const { courseId, stdId } = req.params;
+      const course = await studentController.registerStudents(stdId, courseId);
+      return res
+        .status(StatusCode.OK)
+        .json({ message: "Student registered successfully", data: course });
+    } catch (error) {
+      next(error);
+    }
+  }
+);
+studentRoutes.post(
+  "/:stdId/register/:courseId",
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const { courseId, stdId } = req.params;
+      const course = await studentController.registerStudent(stdId, courseId);
+      return res.status(StatusCode.OK).json({
+        message: "Student registered course successfully",
+        data: course,
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+);
+studentRoutes.post(
+  "/:stdId/remove/:courseId",
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const { courseId, stdId } = req.params;
+      const course = await studentController.removeRegister(stdId, courseId);
+      return res
+        .status(StatusCode.OK)
+        .json({ message: "Student remove course successfully", data: course });
     } catch (error) {
       next(error);
     }

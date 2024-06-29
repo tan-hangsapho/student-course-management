@@ -3,7 +3,10 @@ import { StatusCode } from "src/utils/consts";
 import { logger } from "src/utils/logger";
 import { IStudent } from "src/database/model/@types/student.type";
 import APIError from "src/errors/api-error";
-import { QueryParams, StudentUpdate } from "src/database/repositories/@types/student.type";
+import {
+  QueryParams,
+  StudentUpdate,
+} from "src/database/repositories/@types/student.type";
 
 export class StudentController {
   private stdService: StudentService;
@@ -16,24 +19,55 @@ export class StudentController {
     } catch (error: unknown | any) {
       logger.error("Error creating student:", error);
       throw new APIError(
-        `An error occurred during Adding new Student: ${error.message}`,
-        StatusCode.InternalServerError
+        `An error occurred during create student: ${error.message}`,
+        error.statusCode || StatusCode.BadRequest
       );
+    }
+  }
+  async getStudentReport() {
+    try {
+      const studentData = await this.stdService.getStudentReport();
+      return studentData;
+    } catch (error) {
+      throw error;
     }
   }
   async getStudentById(studId: string) {
     try {
-      return await this.stdService.getStudentById(studId);
+      const student = await this.stdService.getStudentById(studId);
+      if (student?.isDeleted === true) {
+        throw new APIError("Student not found", StatusCode.NotFound);
+      } else if (!student) {
+        throw new APIError("Student not found", StatusCode.NotFound);
+      }
+      return student;
     } catch (error: unknown | any) {
       logger.error("Error get student:", error);
       throw new APIError(error.message, StatusCode.NotFound);
+    }
+  }
+  async getAllStudent() {
+    try {
+      const student = await this.stdService.getAllStudent();
+
+      return student;
+    } catch (error: any) {
+      logger.error("Error get student:", error);
+      throw new APIError(
+        `An error occurred during get student: ${error.message}`,
+        error.statusCode || StatusCode.InternalServerError
+      );
     }
   }
   async searchStudents(query: QueryParams) {
     try {
       return await this.stdService.findStudentByQueries(query);
     } catch (error: any) {
-      throw new APIError(error.message, StatusCode.InternalServerError);
+      logger.error("Error search student:", error);
+      throw new APIError(
+        `An error occurred during search student: ${error.message}`,
+        error.statusCode || StatusCode.BadRequest
+      );
     }
   }
   async updateStudent(stdId: string, updateStd: StudentUpdate) {
@@ -45,14 +79,56 @@ export class StudentController {
 
       return await this.stdService.updateStudent(stdId, updateStd);
     } catch (error: unknown | any) {
-      logger.error("Error updating student:", error);
+      logger.error("Error update student:", error);
+      throw new APIError(
+        `An error occurred during update student: ${error.message}`,
+        error.statusCode || StatusCode.InternalServerError
+      );
     }
   }
-  async deleteStudent(studId: string) {
+  async deleteStudent(stdId: string) {
     try {
-      return await this.stdService.deleteStudent(studId);
+      return await this.stdService.deleteStudent(stdId);
     } catch (error: unknown | any) {
-      logger.error("Error deleting student:", error);
+      logger.error("Error Delete student:", error);
+      throw new APIError(
+        `An error occurred during Delete student: ${error.message}`,
+        error.statusCode || StatusCode.InternalServerError
+      );
+    }
+  }
+  async registerStudent(stdId: string, courseId: string) {
+    try {
+      return await this.stdService.registerToCourse(stdId, courseId);
+    } catch (error: unknown | any) {
+      logger.error("Error registering student:", error);
+      throw new APIError(
+        `An error occurred during registering student: ${error.message}`,
+        error.statusCode || StatusCode.InternalServerError
+      );
+    }
+  }
+  async removeRegister(stdId: string, courseId: string) {
+    try {
+      return await this.stdService.removeFromCourse(stdId, courseId);
+    } catch (error: unknown | any) {
+      logger.error("Error registering student:", error);
+      throw new APIError(
+        `An error occurred during registering student: ${error.message}`,
+        error.statusCode || StatusCode.InternalServerError
+      );
+    }
+  }
+
+  async registerStudents(stdId: string, courseId: string) {
+    try {
+      return await this.stdService.toggleStudentEnrollment(stdId, courseId);
+    } catch (error: unknown | any) {
+      logger.error("Error registering student:", error);
+      throw new APIError(
+        `An error occurred during registering student: ${error.message}`,
+        error.statusCode || StatusCode.InternalServerError
+      );
     }
   }
 }

@@ -1,10 +1,6 @@
-
-
-    readme_content = f"""
 # Student Course Management
 
-{description}
-
+A comprehensive web application designed to manage student courses, featuring CRUD (Create, Read, Update, Delete) operations and advanced search functionalities. Built using Node.js, Express.js, and MongoDB, this project provides an efficient and user-friendly interface for managing educational data.
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -18,8 +14,7 @@
 
 ## Introduction
 
-{description}
-
+The Student Course Management project is a robust solution for educational institutions to efficiently handle student and course information. This application allows administrators to perform CRUD operations on student and course records and offers powerful search capabilities to quickly locate specific data. Leveraging the power of Node.js for the backend, Express.js for the server framework, and MongoDB for the database, this project ensures scalability, reliability, and ease of use.
 ## Features
 
 {"".join(f"- {feature}\n" for feature in features)}
@@ -27,7 +22,11 @@
 ## Technologies
 
 The project is built using the following technologies:
-{"".join(f"- {tech}\n" for tech in technologies)}
+
+    Express: Node.js web application framework
+    Node.js: JavaScript runtime
+    MongoDB: NoSQL database for storing student and course data
+    Jest: JavaScript testing framework
 
 ## Installation
 
@@ -41,11 +40,11 @@ To get started with the {project_name} project, follow these steps:
 
 2. **Install dependencies**:
     ```sh
-    {dependencies}
+    yarn install
     ```
 
 ## Usage
 
 To run the project in development mode:
 ```sh
-{start_command}
+yarn start:dev

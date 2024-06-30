@@ -75,7 +75,6 @@ export class StudentController {
       );
     }
   }
-  //update student
   async updateStudent(stdId: string, updateStd: StudentUpdate) {
     try {
       const isStdExisted = await this.stdService.getStudentById(stdId);

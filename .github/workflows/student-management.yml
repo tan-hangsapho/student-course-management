@@ -1,4 +1,4 @@
-name: CI/CD student-course-management
+name: CI/CD
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "**"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,8 +25,11 @@ jobs:
       - name: Build the project
         run: yarn build
 
+      - name: Test the project
+        run: yarn start:test
+
       - name: Archive Production Artifact
-        uses: actions/upload-artifact@v2 # Use v2 as in the working script
+        uses: actions/upload-artifact@v2
         with:
           name: build
           path: build
@@ -35,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get the Production Artifact
-        uses: actions/download-artifact@v2 # Use v2 as in the working script
+        uses: actions/download-artifact@v2
         with:
           name: build
           path: build
@@ -46,7 +50,7 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Ensure target directory exists
-        uses: appleboy/ssh-action@master # Use master as in the working script
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.EC2_IP }}
           username: ${{ secrets.EC2_USERNAME }}
@@ -55,25 +59,26 @@ jobs:
           script: |
             mkdir -p /home/ubuntu/app
             chown -R ubuntu:ubuntu /home/ubuntu/app
+
       - name: Copy files to EC2
-        uses: appleboy/scp-action@master # Use master as in the working script
+        uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.EC2_IP }}
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           source: "build/*"
-          target: "/home/ubuntu/"
+          target: "/home/ubuntu/app"
 
       - name: Create .env file
-        uses: appleboy/ssh-action@master # Use master as in the working script
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.EC2_IP }}
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cat <<EOF > /home/ubuntu/packages/auth/build/configs/.env
+            cat <<EOF > /home/ubuntu/app/build/config/.env
             NODE_ENV=${{ secrets.NODE_ENV }}
             PORT=${{ secrets.PORT }}
             MONGODB_URL=${{ secrets.MONGODB_URL }}
@@ -81,13 +86,15 @@ jobs:
             EOF
 
       - name: Start Application
-        uses: appleboy/ssh-action@master # Use master as in the working script
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.EC2_IP }}
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
+            #!/bin/bash
+
             # Check if nvm is installed
             if [ -s "$HOME/.nvm/nvm.sh" ]; then
               source "$HOME/.nvm/nvm.sh"
@@ -98,13 +105,21 @@ jobs:
               exit 1
             fi
 
-            # Verify yarn installation
+            # Install yarn if not installed
             if ! command -v yarn &> /dev/null; then
-              echo "Yarn could not be found"
-              exit 1
+              echo "Yarn could not be found, installing yarn..."
+              curl -o- -L https://yarnpkg.com/install.sh | bash
+              export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
             fi
 
-            cd /home/ubuntu/packages/auth/build
+            # Install pm2 if not installed
+            if ! command -v pm2 &> /dev/null; then
+              echo "pm2 could not be found, installing pm2..."
+              yarn global add pm2
+              export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+            fi
+
+            cd /home/ubuntu/app/build
             echo "Checking directory contents..."
             ls -alh # Lists all files in the current directory
 
@@ -119,10 +134,10 @@ jobs:
             yarn install
 
             # Check if the PM2 process is running
-            if pm2 show auth > /dev/null; then
+            if pm2 show student_course > /dev/null; then
               echo "Application is running. Restarting..."
-              yarn restart
+              pm2 restart student_course
             else
               echo "Application is not running. Starting..."
-              yarn start:dev
+              pm2 start ./src/server.js --name SCM
             fi

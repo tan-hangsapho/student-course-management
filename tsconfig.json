@@ -5,8 +5,9 @@
     "module": "commonjs",
     "baseUrl": ".",
     "outDir": "./build",
-    "rootDir": ".",
+    "rootDir": "./src", // updated rootDir
     "strict": true,
+    "skipLibCheck": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -29,5 +30,6 @@
         "afterDeclarations": true
       }
     ]
-  }
+  },
+  "include": ["src/**/*.ts"] // ensure only source files are included
 }

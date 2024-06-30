@@ -5,11 +5,11 @@ export const StudentSchema = z.object({
   fullName: z.object({
     en: z
       .string()
-      .nonempty({ message: "English name is required" })
+      .min(5, { message: "English name must be at least 5 characters" })
       .max(30, { message: "English name must be at most 30 characters" }),
     km: z
       .string()
-      .nonempty({ message: "Khmer name is required" })
+      .min(5, { message: "Khmer name must be at least 5 characters" })
       .max(30, { message: "Khmer name must be at most 30 characters" }),
   }),
   DOB: z.string().refine((date) => !isNaN(Date.parse(date)), {
@@ -18,8 +18,8 @@ export const StudentSchema = z.object({
   gender: z.enum(["Male", "Female", "Other"]),
   phoneNumber: z
     .string()
-    .nonempty({ message: "Phone number is required" })
     .regex(/^\d+$/, { message: "Phone number must be numeric" })
+    .min(8, { message: "Phone number must be at least 8 digits" })
     .max(20, { message: "Phone number must be at most 20 digits" }),
   isDeleted: z.boolean().optional().default(false),
   courseEnrolled: z

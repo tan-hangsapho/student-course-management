@@ -14,14 +14,15 @@ export class CourseController {
   constructor() {
     this.courseService = new CourseService();
   }
+  //create Course
   async createCourse(courseData: ICourse) {
     try {
       return await this.courseService.createCourse(courseData);
     } catch (error: unknown | any) {
-      logger.error("Error creating course:", error);
+      logger.error("Error search course:", error);
       throw new APIError(
-        `An error occurred during Adding new course: ${error.message}`,
-        StatusCode.InternalServerError
+        `An error occurred during search course: ${error.message}`,
+        error.statusCode || StatusCode.InternalServerError
       );
     }
   }
@@ -39,7 +40,13 @@ export class CourseController {
   async filterCoursesByDate(queryDate: FilterQuery) {
     try {
       return await this.courseService.searchFilter(queryDate);
-    } catch (error: unknown | any) {}
+    } catch (error: unknown | any) {
+      logger.error("Error search course:", error);
+      throw new APIError(
+        `An error occurred during search course: ${error.message}`,
+        error.statusCode || StatusCode.BadRequest
+      );
+    }
   }
   async getCourseById(courseId: string) {
     try {

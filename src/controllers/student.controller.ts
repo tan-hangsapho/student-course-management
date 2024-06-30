@@ -92,6 +92,7 @@ export class StudentController {
       );
     }
   }
+  //delete student
   async deleteStudent(stdId: string) {
     try {
       return await this.stdService.deleteStudent(stdId);

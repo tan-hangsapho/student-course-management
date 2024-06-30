@@ -3,11 +3,9 @@ export interface IStudent {
     en: string;
     km: string;
   };
-  courseEnrolled?: string[];
   DOB: Date;
   gender: "Male" | "Female" | "Other";
   phoneNumber: string;
+  courseEnrolled?: string[];
   isDeleted?: boolean;
 }
-
-

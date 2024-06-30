@@ -492,3 +492,6 @@
 [2024-06-30T13:51:15.008Z] [32minfo[39m: 	[32mMongoDB connected[39m
 [2024-06-30T13:51:15.018Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
 [2024-06-30T13:51:15.030Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-06-30T16:43:04.164Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-06-30T16:43:04.183Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-06-30T16:43:04.200Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m

@@ -116,7 +116,6 @@ export class StudentController {
       );
     }
   }
-  //remove the register
   async removeRegister(stdId: string, courseId: string) {
     try {
       return await this.stdService.removeFromCourse(stdId, courseId);

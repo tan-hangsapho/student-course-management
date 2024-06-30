@@ -34,7 +34,7 @@ export class StudentController {
       throw error;
     }
   }
-  //GET STUDENT BY ID 
+  //GET STUDENT BY ID
   async getStudentById(studId: string) {
     try {
       const student = await this.stdService.getStudentById(studId);
@@ -49,6 +49,7 @@ export class StudentController {
       throw new APIError(error.message, StatusCode.NotFound);
     }
   }
+  //get all student
   async getAllStudent() {
     try {
       const student = await this.stdService.getAllStudent();

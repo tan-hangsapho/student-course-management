@@ -507,3 +507,16 @@
 [2024-06-30T16:52:55.828Z] [32minfo[39m: 	[32mMongoDB connected[39m
 [2024-06-30T16:52:55.833Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
 [2024-06-30T16:52:55.837Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-06-30T17:11:06.724Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-06-30T17:11:06.745Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-06-30T17:11:06.750Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-06-30T17:11:06.753Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-06-30T17:11:06.761Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-06-30T17:11:06.762Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-06-30T17:11:06.774Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-06-30T17:11:06.775Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-06-30T17:11:06.777Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-06-30T17:11:06.793Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-06-30T17:11:06.794Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-06-30T17:11:06.805Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-06-30T17:11:06.807Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m

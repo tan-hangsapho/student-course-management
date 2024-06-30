@@ -9,7 +9,7 @@
     "start:test": "jest",
     "start:dev": "cross-env NODE_ENV=development nodemon -r tsconfig-paths/register src/server.ts",
     "dev": "nodemon --exec ts-node -r tsconfig-paths/register src/server.ts ",
-    "start": "node build/server.js ",
+    "start": "node build/server.js",
     "stop": "pm2 stop all",
     "restart": "pm2 restart ecosystem.config.js",
     "delete": "pm2 delete all",

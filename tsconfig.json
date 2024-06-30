@@ -31,7 +31,5 @@
       }
     ]
   },
-  "@controllers/*": ["controllers/*"],
-  "include": ["src/**/*.ts", "src/custom.d.ts"],
-  "exclude": ["node_modules", "build"]
+  "include": ["src/**/*.ts", "src/custom.d.ts"]
 }

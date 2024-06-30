@@ -25,6 +25,7 @@ export class StudentController {
       );
     }
   }
+  //get report
   async getStudentReport() {
     try {
       const studentData = await this.stdService.getStudentReport();

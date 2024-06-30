@@ -1,15 +1,21 @@
 def generate_readme():
-    project_name = input("Enter the project name: ")
-    description = input("Enter a short description of the project: ")
-    features = input("Enter the main features of the project (comma-separated): ").split(',')
-    dependencies = input("Enter the installation command for dependencies: ")
-    test_command = input("Enter the command to run tests: ")
-    build_command = input("Enter the command to build the project: ")
-    deploy_command = input("Enter the command to deploy the project: ")
-    lint_command = input("Enter the command to run linters: ")
-    format_command = input("Enter the command to format code: ")
-    license_type = input("Enter the license type: ")
-    contact_email = input("Enter the contact email: ")
+    project_name = "Student Course Management"
+    description = "A project to manage student courses with CRUD and search functionalities for students and courses."
+    features = [
+        "CRUD operations for students",
+        "CRUD operations for courses",
+        "Search functionality for students",
+        "Search functionality for courses"
+    ]
+    dependencies = "yarn install"
+    test_command = "make test"  # Adjust this if needed
+    build_command = "make build"  # Adjust this if needed
+    deploy_command = "make deploy"  # Adjust this if needed
+    lint_command = "make lint"  # Adjust this if needed
+    format_command = "make format"  # Adjust this if needed
+    start_command = "yarn start:dev"
+    license_type = "MIT"
+    contact_email = "your-email@example.com"
 
     readme_content = f"""
 # {project_name}
@@ -32,7 +38,7 @@ def generate_readme():
 
 ## Features
 
-{"".join(f"- {feature.strip()}\n" for feature in features)}
+{"".join(f"- {feature}\n" for feature in features)}
 
 ## Installation
 
@@ -40,8 +46,8 @@ To get started with the {project_name} project, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/{project_name.lower().replace(" ", "-")}.git
-    cd {project_name.lower().replace(" ", "-")}
+    git clone https://github.com/tan-hangsapho/student-course-management.git
+    cd student-course-management
     ```
 
 2. **Install dependencies**:
@@ -53,7 +59,12 @@ To get started with the {project_name} project, follow these steps:
 
 Here's a quick guide on how to use the {project_name} project:
 
-1. **Running tasks**:
+1. **Start the project**:
+    ```sh
+    {start_command}
+    ```
+
+2. **Running tasks**:
     ```sh
     # Run tests
     {test_command}
@@ -65,7 +76,7 @@ Here's a quick guide on how to use the {project_name} project:
     {deploy_command}
     ```
 
-2. **Code Quality**:
+3. **Code Quality**:
     - Use linters and formatters included in the project to maintain code quality. Run them using the following commands:
     ```sh
     {lint_command}

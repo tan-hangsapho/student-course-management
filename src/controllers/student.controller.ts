@@ -63,6 +63,7 @@ export class StudentController {
       );
     }
   }
+  //searchStudent
   async searchStudents(query: QueryParams) {
     try {
       return await this.stdService.findStudentByQueries(query);

@@ -53,6 +53,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
+            mkdir -p /home/ubuntu/packages/auth/build
             chown ubuntu:ubuntu /home/ubuntu
 
       - name: Copy files to EC2

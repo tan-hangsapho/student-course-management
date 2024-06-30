@@ -92,7 +92,6 @@ export class CourseController {
       );
     }
   }
-  //delete course
   async deleteCourse(courseId: string) {
     try {
       return await this.courseService.deleteCourse(courseId);

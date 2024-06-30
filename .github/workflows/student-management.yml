@@ -1,4 +1,4 @@
-name: CI/CD student-management
+name: CI/CD student-course-management
 
 on:
   push:

@@ -80,6 +80,7 @@ export class CourseController {
       );
     }
   }
+  //get course report
   async getCoursesReport() {
     try {
       return await this.courseService.getCoursesReport();

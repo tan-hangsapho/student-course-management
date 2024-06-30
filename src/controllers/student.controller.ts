@@ -104,7 +104,6 @@ export class StudentController {
       );
     }
   }
-  //REGISTER STUDENT
   async registerStudent(stdId: string, courseId: string) {
     try {
       return await this.stdService.registerToCourse(stdId, courseId);

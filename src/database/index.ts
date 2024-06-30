@@ -43,7 +43,6 @@ export default class connectMongoDB {
       logger.info("Successfully connected to MongoDB");
     } catch (err) {
       logger.error("Initial MongoDB connection error", { err });
-      throw err;
     }
   }
 

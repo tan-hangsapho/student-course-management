@@ -5,7 +5,7 @@
     "module": "commonjs",
     "baseUrl": ".",
     "outDir": "./build",
-    "rootDir": "./src", // updated rootDir
+    "rootDir": "./src",
     "strict": true,
     "skipLibCheck": true,
     "noImplicitAny": true,
@@ -31,5 +31,7 @@
       }
     ]
   },
-  "include": ["src/**/*.ts"] // ensure only source files are included
+  "@controllers/*": ["controllers/*"],
+  "include": ["src/**/*.ts", "src/custom.d.ts"],
+  "exclude": ["node_modules", "build"]
 }

@@ -13,12 +13,7 @@ export const logger = winston.createLogger({
     align(),
     printf((info) => `[${info.timestamp}] ${info.level}: ${info.message}`)
   ),
-  transports: [
-    new winston.transports.Console(), // Output logs to console
-    new winston.transports.File({
-      filename: path.join(__dirname, "../../logs/error.log"),
-    }),
-  ],
+  transports: [],
 });
 
 export const logInit = ({

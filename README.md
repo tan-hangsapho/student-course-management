@@ -1,20 +1,7 @@
-def generate_readme():
-    project_name = "Student Course Management"
-    description = "A project to manage student courses with CRUD and search functionalities for students and courses."
-    features = [
-        "CRUD operations for students",
-        "CRUD operations for courses",
-        "Search functionality for students",
-        "Search functionality for courses"
-    ]
-    dependencies = "yarn install"
-    start_command = "yarn start:dev"
-    technologies = ["Node.js", "Express.js", "MongoDB"]
-    license_type = "MIT"
-    contact_email = "your-email@example.com"
+
 
     readme_content = f"""
-# {project_name}
+# Student Course Management
 
 {description}
 

@@ -14,7 +14,6 @@ studentRoutes.post(
   async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { fullName, DOB, gender, phoneNumber } = req.body;
-      // Create student data with correctly formatted date
       const studentData = {
         fullName,
         DOB,

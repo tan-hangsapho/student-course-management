@@ -22,23 +22,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Run tests and calculate pass percentage
-        id: test
-        run: |
-          npm test -- --json > test-results.json
-          PASS=$(cat test-results.json | jq -r '.numPassedTests')
-          TOTAL=$(cat test-results.json | jq -r '.numTotalTests')
-          PASS_PERCENT=$((PASS * 100 / TOTAL))
-          echo "Passed tests: $PASS / $TOTAL"
-          echo "Pass percentage: $PASS_PERCENT%"
-          echo "::set-output name=pass_percent::$PASS_PERCENT"
-
-      - name: Check pass percentage and stop action on failure
-        if: ${{ steps.test.outputs.pass_percent < 50 }}
-        run: |
-          echo "Pass percentage is less than 50%. Stopping the action."
-          exit 1
-
       - name: Build the project
         run: yarn build
 

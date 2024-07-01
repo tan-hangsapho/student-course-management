@@ -32,7 +32,6 @@ export class StudentController {
       throw error;
     }
   }
-  //GET STUDENT BY ID
   async getStudentById(studId: string) {
     try {
       const student = await this.stdService.getStudentById(studId);

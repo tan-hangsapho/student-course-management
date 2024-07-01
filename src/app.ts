@@ -4,7 +4,7 @@ import loggerMiddleware from "./middlewares/logger-handler";
 // import { studentRoutes } from "./routes/student.routes";
 import bodyParser from "body-parser";
 import { studentRoutes } from "./routes/student.routes";
-import { courseRoutes } from "./routes/course.route";
+import { courseRoutes } from "./routes/course.routes";
 
 export const app = express();
 

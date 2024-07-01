@@ -520,6 +520,621 @@
 [2024-06-30T17:11:06.794Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
 [2024-06-30T17:11:06.805Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
 [2024-06-30T17:11:06.807Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+<<<<<<< HEAD
+[2024-07-01T03:54:59.849Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:54:59.950Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:54:59.974Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+=======
 [2024-07-01T01:35:06.294Z] [32minfo[39m: 	[32mMongoDB connected[39m
 [2024-07-01T01:35:06.309Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
 [2024-07-01T01:35:06.314Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T02:41:57.201Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:41:57.211Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:41:57.214Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:41:57.216Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:41:57.221Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:41:57.222Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:41:57.232Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:41:57.233Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:41:57.234Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:41:57.239Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:41:57.239Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:41:57.248Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:41:57.249Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:43:10.392Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:43:10.401Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:43:10.405Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:43:10.406Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:43:10.412Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:43:10.413Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:43:10.419Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:43:10.420Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:43:10.420Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:43:10.425Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:43:10.426Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:43:10.435Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:43:10.436Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:44:55.057Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:44:55.067Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:44:55.070Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:44:55.071Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:44:55.077Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:44:55.078Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:44:55.079Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:44:55.079Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:44:55.080Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:44:55.085Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:44:55.086Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:44:55.087Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:44:55.087Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:45:18.961Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:45:18.971Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:45:18.975Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:45:18.976Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:45:18.981Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:45:18.982Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:45:18.988Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:45:18.989Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:45:18.990Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:45:18.994Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:45:18.995Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:45:19.004Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:45:19.005Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:45:57.669Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:45:57.678Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:45:57.682Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:45:57.683Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:45:57.689Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:45:57.689Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:45:57.702Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:45:57.702Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:45:57.703Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:45:57.708Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:45:57.709Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:45:57.718Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:45:57.718Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:46:59.956Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:46:59.965Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:46:59.969Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:46:59.970Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:46:59.976Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:46:59.976Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:46:59.982Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:46:59.983Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:46:59.983Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:46:59.988Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:46:59.989Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:46:59.990Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:46:59.991Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:52:11.142Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:52:11.151Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:52:11.155Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:52:11.156Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:52:11.162Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:52:11.162Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:52:11.165Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:52:11.165Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:52:11.166Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:52:11.171Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:52:11.172Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:52:11.181Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:52:11.181Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:54:59.804Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:54:59.813Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:54:59.817Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:54:59.818Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:54:59.824Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:54:59.825Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:54:59.829Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:54:59.829Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:54:59.830Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:54:59.836Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:54:59.836Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:54:59.845Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:54:59.845Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:59:19.666Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:59:19.669Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:59:19.671Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T02:59:31.033Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:59:31.043Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:59:31.047Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:59:31.049Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:59:31.054Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:59:31.055Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:59:31.061Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:59:31.062Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:59:31.063Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T02:59:31.068Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T02:59:31.069Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T02:59:31.070Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T02:59:31.070Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:00:32.931Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:00:32.941Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:00:32.945Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:00:32.946Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:00:32.952Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:00:32.953Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:00:32.954Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:00:32.955Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:00:32.955Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:00:32.961Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:00:32.962Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:00:32.971Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:00:32.972Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:01:18.064Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:01:18.074Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:01:18.079Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:01:18.080Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:01:18.089Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:01:18.089Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:01:18.099Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:01:18.100Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:01:18.101Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:01:18.109Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:01:18.109Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:01:18.114Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:01:18.115Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:01:53.098Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:01:53.108Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:01:53.111Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:01:53.113Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:01:53.119Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:01:53.119Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:01:53.127Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:01:53.127Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:01:53.128Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:01:53.134Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:01:53.135Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:01:53.136Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:01:53.136Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:02:57.089Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:02:57.099Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:02:57.103Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:02:57.104Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:02:57.110Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:02:57.110Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:02:57.117Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:02:57.118Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:02:57.119Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:02:57.125Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:02:57.126Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:02:57.128Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:02:57.129Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:04:17.640Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:04:17.649Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:04:17.653Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:04:17.654Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:04:17.661Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:04:17.661Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:04:17.670Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:04:17.671Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:04:17.671Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:04:17.677Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:04:17.678Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:04:17.680Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-01T03:04:17.680Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-01T03:09:51.816Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:09:51.819Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:09:51.822Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:10:41.489Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "too_small",[39m
+[31m    "minimum": 5,[39m
+[31m    "type": "string",[39m
+[31m    "inclusive": true,[39m
+[31m    "exact": false,[39m
+[31m    "message": "English name must be at least 5 characters",[39m
+[31m    "path": [[39m
+[31m      "fullName",[39m
+[31m      "en"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "too_small",[39m
+[31m    "minimum": 5,[39m
+[31m    "type": "string",[39m
+[31m    "inclusive": true,[39m
+[31m    "exact": false,[39m
+[31m    "message": "Khmer name must be at least 5 characters",[39m
+[31m    "path": [[39m
+[31m      "fullName",[39m
+[31m      "km"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:10:41.496Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:12:07.138Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:12:07.153Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:12:07.157Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:12:17.558Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "too_small",[39m
+[31m    "minimum": 5,[39m
+[31m    "type": "string",[39m
+[31m    "inclusive": true,[39m
+[31m    "exact": false,[39m
+[31m    "message": "English name must be at least 5 characters",[39m
+[31m    "path": [[39m
+[31m      "fullName",[39m
+[31m      "en"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "too_small",[39m
+[31m    "minimum": 5,[39m
+[31m    "type": "string",[39m
+[31m    "inclusive": true,[39m
+[31m    "exact": false,[39m
+[31m    "message": "Khmer name must be at least 5 characters",[39m
+[31m    "path": [[39m
+[31m      "fullName",[39m
+[31m      "km"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:12:17.565Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:12:29.935Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:12:29.939Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:12:43.302Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:12:43.307Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:13:43.433Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:13:43.436Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:13:43.439Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:13:50.573Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:13:50.576Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:13:50.579Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:14:08.558Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:14:08.565Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:14:08.570Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:14:23.203Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:14:23.206Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:15:16.699Z] [31merror[39m: 	[31mError creating student: Student validation failed: DOB: Cast to date failed for value "27-07-2024" (type string) at path "DOB"[39m
+[2024-07-01T03:15:16.700Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: Student validation failed: DOB: Cast to date failed for value "27-07-2024" (type string) at path "DOB"[39m
+[2024-07-01T03:15:46.733Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:15:46.735Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:15:54.481Z] [31merror[39m: 	[31mError creating student: Student validation failed: DOB: Cast to date failed for value "27-07-2024" (type string) at path "DOB"[39m
+[2024-07-01T03:15:54.482Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: Student validation failed: DOB: Cast to date failed for value "27-07-2024" (type string) at path "DOB"[39m
+[2024-07-01T03:15:59.266Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:15:59.269Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:16:09.069Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:16:09.071Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:16:16.220Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:16:16.223Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:16:50.959Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:16:50.962Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:16:50.964Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:17:02.103Z] [31merror[39m: 	[31mError creating student: E11000 duplicate key error collection: test.students index: phoneNumber_1 dup key: { phoneNumber: "2333333222" }[39m
+[2024-07-01T03:17:02.105Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: E11000 duplicate key error collection: test.students index: phoneNumber_1 dup key: { phoneNumber: "2333333222" }[39m
+[2024-07-01T03:17:35.600Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:17:35.603Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:18:00.029Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "date",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "startDate"[39m
+[31m    ],[39m
+[31m    "message": "Expected date, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "date",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "endDate"[39m
+[31m    ],[39m
+[31m    "message": "Expected date, received string"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:18:00.031Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:19:34.327Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "date",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "startDate"[39m
+[31m    ],[39m
+[31m    "message": "Expected date, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "date",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "endDate"[39m
+[31m    ],[39m
+[31m    "message": "Expected date, received string"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:19:34.329Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:20:35.082Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:20:35.085Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:20:35.088Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:24:59.733Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "too_small",[39m
+[31m    "minimum": 5,[39m
+[31m    "type": "string",[39m
+[31m    "inclusive": true,[39m
+[31m    "exact": false,[39m
+[31m    "message": "String must contain at least 5 character(s)",[39m
+[31m    "path": [[39m
+[31m      "courseName"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:24:59.735Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:26:07.624Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:26:07.627Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:26:07.630Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:26:19.762Z] [32minfo[39m: 	[32mresponse sent {[39m
+[32m  "url": "/course/66802ca47beaeb3ee5704bde",[39m
+[32m  "method": "PATCH",[39m
+[32m  "statusCode": 404,[39m
+[32m  "duration": 2[39m
+[32m}[39m
+[2024-07-01T03:26:51.734Z] [31merror[39m: 	[31mErrorHandler() method error: SyntaxError: Expected ',' or '}' after property value in JSON at position 40[39m
+[2024-07-01T03:27:08.567Z] [32minfo[39m: 	[32mresponse sent {[39m
+[32m  "url": "/course/66802ca47beaeb3ee5704bde",[39m
+[32m  "method": "PATCH",[39m
+[32m  "statusCode": 404,[39m
+[32m  "duration": 2[39m
+[32m}[39m
+[2024-07-01T03:27:33.704Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:27:33.708Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:27:33.712Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:27:41.861Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:27:41.864Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:27:41.867Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:28:13.057Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:28:13.065Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:28:13.072Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:29:24.095Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:29:24.098Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:29:24.101Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:29:46.890Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:29:46.894Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:29:46.897Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:30:03.774Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:30:03.777Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:30:03.780Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:30:24.737Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:30:24.741Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:30:24.745Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:30:59.834Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:30:59.838Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:30:59.840Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:32:00.199Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:32:00.203Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:32:00.206Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:33:06.465Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:33:06.469Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:33:06.472Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:33:53.930Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:33:53.934Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:33:53.937Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:34:08.991Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:34:09.001Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:34:09.006Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:34:33.993Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:34:33.997Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:34:34.000Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:36:07.341Z] [32minfo[39m: 	[32mresponse sent {[39m
+[32m  "url": "/students",[39m
+[32m  "method": "PATCH",[39m
+[32m  "statusCode": 404,[39m
+[32m  "duration": 3[39m
+[32m}[39m
+[2024-07-01T03:36:20.446Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "too_small",[39m
+[31m    "minimum": 5,[39m
+[31m    "type": "string",[39m
+[31m    "inclusive": true,[39m
+[31m    "exact": false,[39m
+[31m    "message": "String must contain at least 5 character(s)",[39m
+[31m    "path": [[39m
+[31m      "fullName",[39m
+[31m      "km"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-01T03:36:20.450Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-01T03:40:26.274Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:40:26.278Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:40:26.281Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:40:31.388Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:40:31.404Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:40:31.408Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:42:46.507Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:42:46.521Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:42:46.534Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:45:15.987Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:45:15.990Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:45:15.993Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:47:48.975Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:47:48.978Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:47:48.981Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T03:51:04.979Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T03:51:04.989Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T03:51:04.995Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+>>>>>>> 28860f7e91aa2531c48137b7506866d8226754c8
+[2024-07-01T04:07:41.049Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T04:07:41.055Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T04:07:41.061Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T04:09:08.188Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T04:09:08.203Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T04:09:08.211Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T04:12:38.142Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T04:12:38.165Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T04:12:38.177Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T04:14:29.948Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T04:14:29.975Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T04:14:29.990Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T04:16:18.586Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T04:16:18.627Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T04:16:18.646Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T04:20:36.946Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:20:37.054Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:20:37.059Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:21:12.756Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:21:12.764Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:21:12.770Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:21:24.493Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:21:24.494Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:21:24.495Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:21:39.530Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:21:39.532Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:21:39.532Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:22:10.056Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:22:10.059Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:22:10.061Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:23:00.146Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:23:00.152Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:23:00.154Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:23:08.304Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:23:08.306Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:23:08.311Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:24:47.151Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:24:47.153Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:24:47.154Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:25:04.737Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:25:04.739Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:25:04.740Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:25:35.634Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:25:35.639Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:25:35.642Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:26:16.598Z] [32minfo[39m: 	[32mresponse sent {[39m
+[32m  "url": "/api/students?en=John&phoneNumber=1234567890",[39m
+[32m  "method": "GET",[39m
+[32m  "statusCode": 404,[39m
+[32m  "duration": 61[39m
+[32m}[39m
+[2024-07-01T04:27:10.022Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:27:10.024Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:27:10.026Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m

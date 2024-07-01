@@ -31,5 +31,5 @@
       }
     ]
   },
-  "include": ["src/**/*.ts", "src/custom.d.ts"]
+  "include": ["src/**/*.ts", "src/custom.d.ts", "src/routes/course.routes.ts"]
 }

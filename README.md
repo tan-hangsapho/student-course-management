@@ -9,7 +9,6 @@ A comprehensive web application designed to manage student courses, featuring CR
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 

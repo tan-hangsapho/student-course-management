@@ -49,7 +49,6 @@ export class CourseController {
       );
     }
   }
-  //get course by id
   async getCourseById(courseId: string) {
     try {
       return await this.courseService.getCourseById(courseId);

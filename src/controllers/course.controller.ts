@@ -61,7 +61,6 @@ export class CourseController {
     }
   }
 
-  //update course
   async updateCourse(courseId: string, updateCourse: CourseUpdate) {
     try {
       const isStdExisted = await this.getCourseById(courseId);

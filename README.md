@@ -52,3 +52,14 @@ To get started with the Student Course Management project, follow these steps:
 To run the project in development mode:
 ```sh
 yarn start:dev
+```
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+
+For any inquiries or further information, please contact:
+
+Name: Tan Hangsapho
+Email: hangsaphotan@gmail.com

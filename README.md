@@ -65,4 +65,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 For any inquiries or further information, please contact:
 
 Name: Tan Hangsapho
+
 Email: hangsaphotan@gmail.com

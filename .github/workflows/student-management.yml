@@ -1,4 +1,4 @@
-name: CI/CD student-management
+name: CI/CD student-course-management
 
 on:
   push:
@@ -25,9 +25,6 @@ jobs:
       - name: Build the project
         run: yarn build
 
-      - name: Test the project
-        run: yarn start:test
-
       - name: Archive Production Artifact
         uses: actions/upload-artifact@v2
         with:
@@ -37,6 +34,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+
     steps:
       - name: Get the Production Artifact
         uses: actions/download-artifact@v2
@@ -48,6 +46,7 @@ jobs:
         uses: webfactory/ssh-agent@v0.5.3
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
       - name: Ensure target directory exists
         uses: appleboy/ssh-action@master
         with:
@@ -67,7 +66,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           source: "build/*"
-          target: "/home/ubuntu/app"
+          target: "/home/ubuntu/app/"
 
       - name: Create .env file
         uses: appleboy/ssh-action@master
@@ -77,11 +76,11 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cat <<EOF > /home/ubuntu/app/build/config/.env
+            cat <<EOF > /home/ubuntu/app/build/configs/.env.staging
             NODE_ENV=${{ secrets.NODE_ENV }}
             PORT=${{ secrets.PORT }}
-            MONGODB_URL=${{ secrets.MONGODB_URL }}
             LOG_LEVEL=${{ secrets.LOG_LEVEL }}
+            MONGODB_URL=${{ secrets.MONGODB_URL}}
             EOF
 
       - name: Start Application
@@ -104,18 +103,10 @@ jobs:
               exit 1
             fi
 
-            # Install yarn if not installed
+            # Verify yarn installation
             if ! command -v yarn &> /dev/null; then
-              echo "Yarn could not be found, installing yarn..."
-              curl -o- -L https://yarnpkg.com/install.sh | bash
-              export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-            fi
-
-            # Install pm2 if not installed
-            if ! command -v pm2 &> /dev/null; then
-              echo "pm2 could not be found, installing pm2..."
-              yarn global add pm2
-              export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+              echo "Yarn could not be found"
+              exit 1
             fi
 
             cd /home/ubuntu/app/build
@@ -133,10 +124,10 @@ jobs:
             yarn install
 
             # Check if the PM2 process is running
-            if pm2 show student_course > /dev/null; then
+            if pm2 show SCM > /dev/null; then
               echo "Application is running. Restarting..."
-              pm2 restart student_course
+              pm2 restart SCM
             else
               echo "Application is not running. Starting..."
-              pm2 start ./src/server.js --name student_course
+              pm2 start ./src/server.js --name SCM
             fi

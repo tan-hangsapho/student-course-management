@@ -3,11 +3,14 @@ import { Request, Response, NextFunction } from "express";
 import { StatusCode } from "src/utils/consts/status-code";
 import APIError from "src/errors/api-error";
 import { CourseController } from "src/controllers/course.controller";
+import validateInput from "src/middlewares/validation-input";
+import { CourseSchema, CourseUpdateSchema } from "src/schemas/course.schema";
 
 export const courseRoutes = Router();
 const courseController = new CourseController();
 courseRoutes.post(
   "/",
+  validateInput(CourseSchema),
   async (req: Request, res: Response, next: NextFunction) => {
     try {
       const courseData = req.body;
@@ -61,6 +64,24 @@ courseRoutes.get(
     }
   }
 );
+courseRoutes.patch(
+  "/:id",
+  validateInput(CourseUpdateSchema),
+  async (req: Request, res: Response, next: NextFunction) => {
+    const reqId = req.params.id;
+    const reqBody = req.body;
+    try {
+      console.log(reqId);
+      console.log(reqBody);
+      const updateCourse = await courseController.updateCourse(reqId, reqBody);
+      return res
+        .status(StatusCode.OK)
+        .send({ message: "Update course successfully", data: updateCourse });
+    } catch (error) {
+      next(error);
+    }
+  }
+);
 courseRoutes.get(
   "/report",
   async (_req: Request, res: Response, next: NextFunction) => {
@@ -91,22 +112,6 @@ courseRoutes.get(
   }
 );
 
-courseRoutes.patch(
-  "/:id",
-  async (req: Request, res: Response, next: NextFunction) => {
-    try {
-      const updateStudent = await courseController.updateCourse(
-        req.params.id,
-        req.body
-      );
-      return res
-        .status(StatusCode.OK)
-        .send({ message: "Update course successfully", data: updateStudent });
-    } catch (error) {
-      next(error);
-    }
-  }
-);
 courseRoutes.delete(
   "/:id",
   async (req: Request, res: Response, next: NextFunction) => {

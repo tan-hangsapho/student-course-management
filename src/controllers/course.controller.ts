@@ -14,7 +14,7 @@ export class CourseController {
   constructor() {
     this.courseService = new CourseService();
   }
-  //create Course
+
   async createCourse(courseData: ICourse) {
     try {
       return await this.courseService.createCourse(courseData);
@@ -38,7 +38,6 @@ export class CourseController {
     }
   }
 
-  //filter course
   async filterCoursesByDate(queryDate: FilterQuery) {
     try {
       return await this.courseService.searchFilter(queryDate);
@@ -50,7 +49,6 @@ export class CourseController {
       );
     }
   }
-  //get course by id
   async getCourseById(courseId: string) {
     try {
       return await this.courseService.getCourseById(courseId);
@@ -63,7 +61,6 @@ export class CourseController {
     }
   }
 
-  //update course
   async updateCourse(courseId: string, updateCourse: CourseUpdate) {
     try {
       const isStdExisted = await this.getCourseById(courseId);

@@ -4,7 +4,7 @@ import { Request, Response, NextFunction } from "express";
 import { StatusCode } from "src/utils/consts/status-code";
 import APIError from "src/errors/api-error";
 import validateInput from "src/middlewares/validation-input";
-import { StudentSchema } from "src/schemas/student.schema";
+import { StudentSchema, StudentUpdateSchema } from "src/schemas/student.schema";
 
 export const studentRoutes = Router();
 const studentController = new StudentController();
@@ -83,6 +83,7 @@ studentRoutes.get(
 
 studentRoutes.patch(
   "/:id",
+  validateInput(StudentUpdateSchema),
   async (req: Request, res: Response, next: NextFunction) => {
     try {
       const updateStudent = await studentController.updateStudent(

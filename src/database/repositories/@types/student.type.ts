@@ -3,7 +3,7 @@ export interface StudentUpdate {
     en: string;
     km: string;
   };
-  dateOfBirth?: Date;
+  DOB?: Date;
   gender?: "Male" | "Female" | "Other";
   phoneNumber?: string;
 }

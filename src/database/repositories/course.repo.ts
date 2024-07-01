@@ -90,13 +90,25 @@ export class CourseRepository {
 
   async update(id: string, courseData: CourseUpdate) {
     try {
+      console.log("Updating course with ID:", id);
+      console.log("Update data:", courseData);
       const isExisting = await this.findById(id);
+      console.log("Existing Course", isExisting);
       if (!isExisting) {
         throw new APIError("Student not found", StatusCode.NotFound);
       }
-      return await CourseModel.findByIdAndUpdate(id, courseData, {
-        new: true,
-      }).where({ isDelete: false });
+      const updatedCourse = await CourseModel.findByIdAndUpdate(
+        id,
+        courseData,
+        {
+          new: true,
+          runValidators: true,
+        }
+      ).where({ isDeleted: false });
+      if (!updatedCourse) {
+        throw new Error("Course not found");
+      }
+      return updatedCourse;
     } catch (error) {
       throw error;
     }

@@ -13,7 +13,6 @@ export class StudentController {
   constructor() {
     this.stdService = new StudentService();
   }
-  //create student
   async createStudent(studentData: IStudent) {
     try {
       return await this.stdService.createStudent(studentData);
@@ -25,7 +24,6 @@ export class StudentController {
       );
     }
   }
-  //get report
   async getStudentReport() {
     try {
       const studentData = await this.stdService.getStudentReport();
@@ -34,7 +32,6 @@ export class StudentController {
       throw error;
     }
   }
-  //GET STUDENT BY ID
   async getStudentById(studId: string) {
     try {
       const student = await this.stdService.getStudentById(studId);

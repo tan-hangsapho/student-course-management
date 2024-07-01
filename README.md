@@ -52,6 +52,10 @@ To run the project in development mode:
 ```sh
 yarn start:dev
 ```
+To run the test in development mode:
+```sh
+yarn start:test
+```
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.

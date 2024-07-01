@@ -38,7 +38,6 @@ export class CourseController {
     }
   }
 
-  //filter course
   async filterCoursesByDate(queryDate: FilterQuery) {
     try {
       return await this.courseService.searchFilter(queryDate);

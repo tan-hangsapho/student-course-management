@@ -3,7 +3,7 @@ export interface StudentUpdate {
     en: string;
     km: string;
   };
-  dateOfBirth?: Date;
+  DOB?: Date;
   gender?: "Male" | "Female" | "Other";
   phoneNumber?: string;
 }
@@ -15,6 +15,7 @@ export interface CourseUpdate {
 }
 
 export interface QueryParams {
+  // searchText: string;
   en?: string;
   km?: string;
   phoneNumber?: string;

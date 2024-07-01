@@ -13,7 +13,6 @@ export class StudentController {
   constructor() {
     this.stdService = new StudentService();
   }
-  //create student
   async createStudent(studentData: IStudent) {
     try {
       return await this.stdService.createStudent(studentData);

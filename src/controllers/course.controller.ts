@@ -14,7 +14,7 @@ export class CourseController {
   constructor() {
     this.courseService = new CourseService();
   }
-  //create Course
+
   async createCourse(courseData: ICourse) {
     try {
       return await this.courseService.createCourse(courseData);

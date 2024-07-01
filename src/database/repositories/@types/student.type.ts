@@ -15,13 +15,10 @@ export interface CourseUpdate {
 }
 
 export interface QueryParams {
-  en?: string;
-  km?: string;
-  phoneNumber?: string;
+  query?: string;
 }
 export interface QueryCourse {
-  courseName?: string;
-  professorName?: string;
+  query?: string;
 }
 
 export interface FilterQuery {

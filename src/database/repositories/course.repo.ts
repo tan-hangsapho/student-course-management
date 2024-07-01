@@ -23,28 +23,85 @@ export class CourseRepository {
   }
   async searchCoursesByNameOrProfessor(queryCourse: QueryCourse) {
     try {
-      const { courseName, professorName } = queryCourse;
-      const searchConditions: { [key: string]: any } = { isDeleted: false };
-      if (courseName)
-        searchConditions.courseName = { $regex: courseName, $options: "i" };
-      if (professorName)
-        searchConditions.professorName = {
-          $regex: professorName,
-          $options: "i",
-        };
-
-      const allCourse = await CourseModel.find(
-        searchConditions ? searchConditions : {}
-      );
-      console.log("Course", allCourse);
-      if (allCourse.length === 0) {
-        throw new APIError("Course cannot Found", StatusCode.BadRequest);
+      const { query } = queryCourse;
+      if (!query) {
+        throw new APIError(
+          "At least one query parameter (courseName or professorName) is required",
+          StatusCode.BadRequest
+        );
       }
-      return allCourse;
-    } catch (error) {
+
+      // Define patterns to recognize English and Khmer queries
+      const patterns = {
+        english: /^[a-zA-Z0-9\s\+\-\*\&\^\%\$#@!]+$/,
+        khmer: /^[\u1780-\u17FF\s]+$/,
+      };
+
+      // Escaping special characters in query
+      const escapeSpecialChars = (str: string) => {
+        return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); // $& means the whole matched string
+      };
+
+      const escapedQuery = escapeSpecialChars(query);
+      console.log(`Escaped Query: ${escapedQuery}`);
+
+      const searchConditions: { [key: string]: any } = {
+        courseNameEnglish: {
+          courseName: { $regex: escapedQuery, $options: "i" },
+        },
+        courseNameKhmer: {
+          courseName: { $regex: escapedQuery, $options: "i" },
+        },
+        professorNameEnglish: {
+          professorName: { $regex: escapedQuery, $options: "i" },
+        },
+        professorNameKhmer: {
+          professorName: { $regex: escapedQuery, $options: "i" },
+        },
+      };
+
+      let search = null;
+      if (patterns.english.test(query)) {
+        search = {
+          $or: [
+            searchConditions.courseNameEnglish,
+            searchConditions.professorNameEnglish,
+          ],
+        };
+      } else if (patterns.khmer.test(query)) {
+        search = {
+          $or: [
+            searchConditions.courseNameKhmer,
+            searchConditions.professorNameKhmer,
+          ],
+        };
+      } else {
+        throw new APIError(
+          "Query could not find any valid value",
+          StatusCode.BadRequest
+        );
+      }
+
+      const allCourses = await CourseModel.find({
+        ...search,
+      }).where({ isDeleted: false });
+
+      if (!allCourses.length) {
+        throw new APIError(
+          "No courses found matching the query",
+          StatusCode.BadRequest
+        );
+      }
+
+      return allCourses;
+    } catch (error: unknown | any) {
+      // logger.error(
+      //   `An error occurred in searchCoursesByNameOrProfessor: ${error}`
+      // );
       throw error;
     }
   }
+
   async filterCoursesByDateRange(queryDate: FilterQuery) {
     try {
       const { startDate, endDate } = queryDate;

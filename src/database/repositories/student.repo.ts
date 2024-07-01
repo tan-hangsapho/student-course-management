@@ -26,23 +26,47 @@ export class StudentRepository {
       throw error;
     }
   }
-  async findStudentByQuery(query: QueryParams) {
+  async findStudentByQuery(queryParam: QueryParams) {
     try {
-      const { km, en, phoneNumber } = query;
+      const { query } = queryParam;
+      if (!query) {
+        throw new Error("Query parameter is required");
+      }
+      const patterns = {
+        english: /^[a-zA-Z]+$/,
+        khmer: /^[\u1780-\u17FF]+$/,
+        number: /^\d+$/,
+      };
 
-      const search: { [key: string]: any } = {};
-      if (en) search["fullName.en"] = { $regex: en, $options: "i" };
-      if (km) search["fullName.km"] = km;
-      if (phoneNumber) search.phoneNumber = phoneNumber;
+      const searchCriteria: { [key: string]: any } = {
+        english: { "fullName.en": { $regex: query, $options: "i" } }, // Case-insensitive partial match
+        khmer: { "fullName.km": query },
+        number: { phoneNumber: query },
+      };
 
-      const allStudent = await StudentModel.find(search ? search : {}).where({
+      let search = null;
+      if (patterns.english.test(query)) {
+        search = searchCriteria.english;
+      } else if (patterns.khmer.test(query)) {
+        search = searchCriteria.khmer;
+      } else if (patterns.number.test(query)) {
+        search = searchCriteria.number;
+      } else {
+        throw new Error("Query does not match any valid pattern");
+      }
+
+      const students = await StudentModel.find({ ...search }).where({
         isDeleted: false,
       });
 
-      if (allStudent.length === 0) {
-        throw new APIError("Cannot find student", StatusCode.BadRequest);
+      if (!students.length) {
+        throw new APIError(
+          "No students found matching the query",
+          StatusCode.BadRequest
+        );
       }
-      return allStudent;
+
+      return students;
     } catch (error: unknown | any) {
       logger.error(`An error occurred in findStudentByQuery(): ${error}`);
       throw error;

@@ -1138,3 +1138,73 @@
 [2024-07-01T04:27:10.022Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
 [2024-07-01T04:27:10.024Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
 [2024-07-01T04:27:10.026Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:29:37.414Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T04:29:37.419Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T04:29:37.428Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T04:30:17.711Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:30:17.723Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:30:17.725Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:30:24.143Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:30:24.147Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:30:24.152Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:30:54.025Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:30:54.027Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:30:54.028Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:31:49.943Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Cannot find student[39m
+[2024-07-01T04:31:49.959Z] [31merror[39m: 	[31mError search student: Cannot find student[39m
+[2024-07-01T04:31:49.964Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Cannot find student[39m
+[2024-07-01T04:32:24.749Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T04:32:24.762Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T04:32:24.772Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T04:32:44.262Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T04:32:44.292Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T04:32:44.305Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T04:33:12.405Z] [31merror[39m: 	[31mError search course: Course cannot Found[39m
+[2024-07-01T04:33:12.408Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search course: Course cannot Found[39m
+[2024-07-01T04:34:13.894Z] [31merror[39m: 	[31mError search course: Course cannot Found[39m
+[2024-07-01T04:34:13.906Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search course: Course cannot Found[39m
+[2024-07-01T05:35:19.195Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T05:35:19.208Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T05:35:19.216Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T05:37:38.973Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T05:37:38.996Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T05:37:39.003Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T05:42:05.576Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T05:42:05.591Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T05:42:05.599Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T05:44:07.053Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T05:44:07.081Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T05:44:07.091Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T05:52:38.457Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T05:52:38.473Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T05:52:38.480Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T06:01:48.668Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T06:01:48.687Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T06:01:48.694Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T06:02:56.799Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T06:02:56.836Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T06:02:56.848Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T06:03:38.206Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T06:03:38.227Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T06:03:38.234Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T06:04:10.045Z] [31merror[39m: 	[31mError search course: Query could not found any valid value[39m
+[2024-07-01T06:04:10.051Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search course: Query could not found any valid value[39m
+[2024-07-01T06:05:17.391Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T06:05:17.419Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T06:05:17.425Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T06:07:07.274Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T06:07:07.319Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T06:07:07.333Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T06:07:14.203Z] [31merror[39m: 	[31mError search course: No courses found matching the query[39m
+[2024-07-01T06:07:14.204Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search course: No courses found matching the query[39m
+[2024-07-01T06:08:55.052Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T06:08:55.088Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T06:08:55.122Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T06:09:00.867Z] [31merror[39m: 	[31mError search course: No courses found matching the query[39m
+[2024-07-01T06:09:00.869Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search course: No courses found matching the query[39m
+[2024-07-01T06:09:17.637Z] [31merror[39m: 	[31mError search course: No courses found matching the query[39m
+[2024-07-01T06:09:17.639Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search course: No courses found matching the query[39m
+[2024-07-01T06:09:26.673Z] [31merror[39m: 	[31mError search course: No courses found matching the query[39m
+[2024-07-01T06:09:26.676Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search course: No courses found matching the query[39m
+[2024-07-01T06:10:48.234Z] [31merror[39m: 	[31mError search course: Query could not find any valid value[39m
+[2024-07-01T06:10:48.237Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search course: Query could not find any valid value[39m

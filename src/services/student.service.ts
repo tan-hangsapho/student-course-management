@@ -161,16 +161,19 @@ export class StudentService {
       const course = await this.courseRepo.findById(courseId);
       const student = await this.stdRepo.findById(stdId);
       if (!student || !course) {
-        throw new Error("Course or student not found");
+        throw new APIError("Course or student not found", StatusCode.NotFound);
       }
       const studentObjectId = new mongoose.Types.ObjectId(stdId);
       const courseObjectId = new mongoose.Types.ObjectId(courseId);
 
+      // Filter out the student ID from course's studentEnrolled array
       course.studentEnrolled = course.studentEnrolled.filter(
-        (student) => !student.equals(studentObjectId)
+        (studentId) => !studentId.equals(studentObjectId)
       );
+
+      // Filter out the course ID from student's courseEnrolled array
       student.courseEnrolled = student.courseEnrolled.filter(
-        (course) => !course.equals(courseObjectId)
+        (courseId) => !courseId.equals(courseObjectId)
       );
 
       await course.save();

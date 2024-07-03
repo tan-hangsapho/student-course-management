@@ -13,7 +13,7 @@ export const app = express();
 app.use(express.json());
 // Use body-parser to parse URL-encoded bodies
 app.use(bodyParser.urlencoded({ extended: true }));
-
+app.use(bodyParser.json());
 // Connect to MongoDB
 app.use("/students", studentRoutes);
 app.use("/course", courseRoutes);

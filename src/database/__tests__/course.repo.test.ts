@@ -115,14 +115,14 @@ describe("CourseRepository Integration Tests", () => {
 
       const foundCoursesByName =
         await courseRepo.searchCoursesByNameOrProfessor({
-          courseName: "Test Course 1",
+          query: "Test Course 1",
         });
       expect(foundCoursesByName).toHaveLength(1);
       expect(foundCoursesByName[0]).toMatchObject(courseData1);
 
       const foundCoursesByProfessor =
         await courseRepo.searchCoursesByNameOrProfessor({
-          professorName: "Professor B",
+          query: "Professor B",
         });
       expect(foundCoursesByProfessor).toHaveLength(1);
       expect(foundCoursesByProfessor[0]).toMatchObject(courseData2);
@@ -131,9 +131,9 @@ describe("CourseRepository Integration Tests", () => {
     it("should throw an error if no courses are found", async () => {
       await expect(
         courseRepo.searchCoursesByNameOrProfessor({
-          courseName: "Nonexistent Course",
+          query: "Nonexistent Course",
         })
-      ).rejects.toThrow("Course cannot Found");
+      ).rejects.toThrow("No courses found matching the query");
     });
   });
 });

@@ -1208,3 +1208,2468 @@
 [2024-07-01T06:09:26.676Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search course: No courses found matching the query[39m
 [2024-07-01T06:10:48.234Z] [31merror[39m: 	[31mError search course: Query could not find any valid value[39m
 [2024-07-01T06:10:48.237Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search course: Query could not find any valid value[39m
+[2024-07-01T06:13:07.337Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T06:13:07.342Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T06:13:07.352Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T06:13:32.504Z] [31merror[39m: 	[31mError registering student: Student is already enrolled in the course[39m
+[2024-07-01T06:13:32.506Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during registering student: Student is already enrolled in the course[39m
+[2024-07-01T06:13:40.390Z] [31merror[39m: 	[31mError registering student: Course or student not found[39m
+[2024-07-01T06:13:40.393Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during registering student: Course or student not found[39m
+[2024-07-01T06:16:15.754Z] [31merror[39m: 	[31mError registering student: Student is already enrolled in the course[39m
+[2024-07-01T06:16:15.773Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during registering student: Student is already enrolled in the course[39m
+[2024-07-01T06:17:36.994Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T06:17:37.016Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T06:17:37.023Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T06:19:36.974Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T06:19:37.010Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T06:19:37.018Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T06:20:44.768Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T06:20:44.995Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T06:20:45.011Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-01T06:21:20.296Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-01T06:21:20.330Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-01T06:21:20.338Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T06:31:12.949Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:31:13.465Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:31:13.476Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:31:13.481Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:31:13.503Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:31:13.507Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:31:13.510Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:31:13.511Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:31:13.512Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:31:13.528Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:31:13.529Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:31:13.539Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:31:13.540Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:32:41.436Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:32:41.457Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:32:41.465Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:32:41.467Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:32:41.480Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:32:41.481Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:32:41.483Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:32:41.485Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:32:41.486Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:32:41.497Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:32:41.498Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:32:41.501Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:32:41.503Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:33:22.007Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:33:22.028Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:33:22.036Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:33:22.040Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:33:22.094Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:33:22.095Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:33:22.097Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:33:22.098Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:33:22.100Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:33:22.126Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:33:22.127Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:33:22.146Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:33:22.147Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:38:09.714Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:38:10.040Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:38:10.048Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:38:10.057Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:38:10.081Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:38:10.082Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:38:10.092Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:38:10.093Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:38:10.095Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:38:10.109Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:38:10.111Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:38:10.114Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:38:10.115Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:38:15.880Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:38:15.903Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:38:15.973Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Query parameter is required[39m
+[2024-07-02T06:38:16.031Z] [31merror[39m: 	[31mError search student: Query parameter is required[39m
+[2024-07-02T06:38:16.032Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Query parameter is required[39m
+[2024-07-02T06:38:21.066Z] [31merror[39m: 	[31mError get student: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:38:21.067Z] [31merror[39m: 	[31mErrorHandler() method error: Error: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:38:21.078Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:38:21.079Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:38:21.094Z] [31merror[39m: 	[31mError get student: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:38:21.095Z] [31merror[39m: 	[31mErrorHandler() method error: Error: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:38:21.102Z] [31merror[39m: 	[31mError registering student: Cast to ObjectId failed for value "101" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:38:21.103Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during registering student: Cast to ObjectId failed for value "101" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:38:21.112Z] [31merror[39m: 	[31mError registering student: Cast to ObjectId failed for value "101" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:38:21.113Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during registering student: Cast to ObjectId failed for value "101" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:40:51.724Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:40:51.732Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:40:51.741Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:40:51.757Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:40:51.765Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:40:51.767Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:40:51.779Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:40:51.780Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:40:51.781Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:40:51.782Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:40:51.796Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:40:51.797Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:40:51.799Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:40:51.811Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:40:51.798Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Query parameter is required[39m
+[2024-07-02T06:40:51.812Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:40:51.828Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:40:51.830Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:40:51.855Z] [31merror[39m: 	[31mError search student: Query parameter is required[39m
+[2024-07-02T06:40:51.857Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Query parameter is required[39m
+[2024-07-02T06:40:51.867Z] [31merror[39m: 	[31mAn error occurred in findStudentByQuery(): Error: Query parameter is required[39m
+[2024-07-02T06:40:51.871Z] [31merror[39m: 	[31mError search student: Query parameter is required[39m
+[2024-07-02T06:40:51.872Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during search student: Query parameter is required[39m
+[2024-07-02T06:41:01.901Z] [31merror[39m: 	[31mErrorHandler() method error: MongooseError: Operation `students.find()` buffering timed out after 10000ms[39m
+[2024-07-02T06:41:01.925Z] [31merror[39m: 	[31mError get student: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:41:01.926Z] [31merror[39m: 	[31mErrorHandler() method error: Error: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:41:01.936Z] [31merror[39m: 	[31mError get student: Cast to ObjectId failed for value "999" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:41:01.936Z] [31merror[39m: 	[31mErrorHandler() method error: Error: Cast to ObjectId failed for value "999" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:41:01.945Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:41:01.946Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:41:01.961Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:41:01.962Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:41:01.970Z] [31merror[39m: 	[31mError get student: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:41:01.971Z] [31merror[39m: 	[31mErrorHandler() method error: Error: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:41:01.977Z] [31merror[39m: 	[31mError get student: Cast to ObjectId failed for value "999" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:41:01.978Z] [31merror[39m: 	[31mErrorHandler() method error: Error: Cast to ObjectId failed for value "999" (type string) at path "_id" for model "Student"[39m
+[2024-07-02T06:41:01.985Z] [31merror[39m: 	[31mError registering student: Cast to ObjectId failed for value "101" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:41:01.985Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during registering student: Cast to ObjectId failed for value "101" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:41:01.992Z] [31merror[39m: 	[31mError registering student: Cast to ObjectId failed for value "999" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:41:01.992Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during registering student: Cast to ObjectId failed for value "999" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:41:01.999Z] [31merror[39m: 	[31mError registering student: Cast to ObjectId failed for value "101" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:41:02.000Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during registering student: Cast to ObjectId failed for value "101" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:41:02.007Z] [31merror[39m: 	[31mError registering student: Cast to ObjectId failed for value "999" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:41:02.007Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during registering student: Cast to ObjectId failed for value "999" (type string) at path "_id" for model "Course"[39m
+[2024-07-02T06:45:32.896Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:45:32.922Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:45:32.931Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:45:32.934Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:45:32.949Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:45:32.951Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:45:32.959Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:45:32.961Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:45:32.963Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:45:32.985Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:45:32.987Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:45:32.991Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:45:32.992Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:45:32.932Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:45:33.000Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:45:33.185Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:45:33.197Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:47:57.287Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:47:57.305Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:47:57.314Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:47:57.316Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:47:57.327Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:47:57.329Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:47:57.344Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:47:57.345Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:47:57.346Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:47:57.356Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:47:57.357Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:47:57.360Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:47:57.361Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:47:57.439Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (YYYY-MM-DD)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:47:57.448Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:47:57.621Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:47:57.626Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:49:18.060Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:49:18.080Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:49:18.187Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:49:18.190Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:49:18.633Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:49:18.660Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:49:18.673Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:49:18.676Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:49:18.742Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:49:18.744Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:49:18.754Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:49:18.755Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:49:18.757Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:49:18.782Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:49:18.785Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:49:18.791Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:49:18.793Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:50:02.883Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:50:02.922Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:50:02.932Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:50:02.934Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:50:02.952Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:50:02.954Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:50:02.956Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:50:02.957Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:50:02.958Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:50:02.969Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:50:02.971Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:50:02.973Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:50:02.974Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:50:02.971Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:50:03.000Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:50:03.235Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:50:03.239Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:52:42.253Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:52:42.274Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:52:42.282Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:52:42.284Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:52:42.320Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:52:42.322Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:52:42.324Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:52:42.325Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:52:42.327Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:52:42.372Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:52:42.374Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:52:42.377Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:52:42.378Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:52:47.820Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:52:47.826Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:52:47.868Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:52:47.870Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:53:52.015Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:53:52.023Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:53:52.156Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:53:52.167Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:53:53.534Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:53:53.647Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:53:53.654Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:53:53.656Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:53:53.679Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:53:53.680Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:53:53.690Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:53:53.691Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:53:53.693Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:53:53.730Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:53:53.731Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:53:53.733Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:53:53.735Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:55:57.091Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:55:57.105Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:55:57.280Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:55:57.290Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:56:00.878Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:56:00.883Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:56:00.886Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:56:00.888Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:56:00.895Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:56:00.896Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:56:00.897Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:56:00.898Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:56:00.899Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:56:00.905Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:56:00.906Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:56:00.907Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T06:56:00.908Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T06:56:32.196Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:56:32.200Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:56:32.203Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T06:56:41.592Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T06:56:41.596Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T06:58:00.784Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T06:58:01.046Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T06:58:01.259Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:01:39.380Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:01:39.386Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:01:39.391Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:02:45.811Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:02:45.816Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:04:52.082Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:04:52.132Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:04:52.143Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:04:58.784Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:04:58.815Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:05:39.296Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:05:39.301Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:06:44.431Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:06:44.437Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:06:44.442Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:06:50.006Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (MM-DD-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:06:50.019Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:07:17.109Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:07:17.122Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:07:17.131Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:07:20.631Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (MM-DD-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:07:20.642Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:10:03.678Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:10:03.703Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:10:03.711Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:10:10.131Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (MM-DD-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:10:10.136Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:15:16.450Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:15:16.462Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:15:16.469Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:15:19.753Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (MM-DD-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:15:19.771Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:15:55.654Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (MM-DD-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:15:55.656Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:16:08.518Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (MM-DD-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:16:08.523Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:17:55.259Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:17:55.296Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:17:55.309Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:18:01.292Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (dd-mm-yyyy)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:18:01.297Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:18:10.958Z] [31merror[39m: 	[31mError creating student: E11000 duplicate key error collection: test.students index: phoneNumber_1 dup key: { phoneNumber: "11333222" }[39m
+[2024-07-02T07:18:10.960Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: E11000 duplicate key error collection: test.students index: phoneNumber_1 dup key: { phoneNumber: "11333222" }[39m
+[2024-07-02T07:18:45.114Z] [31merror[39m: 	[31mError creating student: E11000 duplicate key error collection: test.students index: phoneNumber_1 dup key: { phoneNumber: "011333222" }[39m
+[2024-07-02T07:18:45.116Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: E11000 duplicate key error collection: test.students index: phoneNumber_1 dup key: { phoneNumber: "011333222" }[39m
+[2024-07-02T07:18:55.897Z] [31merror[39m: 	[31mError creating student: Student validation failed: DOB: Cast to date failed for value "30-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:18:55.898Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: Student validation failed: DOB: Cast to date failed for value "30-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:19:12.806Z] [31merror[39m: 	[31mError creating student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:19:12.807Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:19:56.562Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:19:56.574Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:19:56.583Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:20:00.828Z] [31merror[39m: 	[31mError creating student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:20:00.833Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:21:43.576Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:21:43.591Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:21:43.599Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:21:47.868Z] [31merror[39m: 	[31mError creating student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:21:47.882Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:23:20.193Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:23:20.199Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:23:20.203Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:23:30.321Z] [31merror[39m: 	[31mError creating student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:23:30.328Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:24:48.881Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:24:48.901Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:24:48.910Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:24:56.433Z] [31merror[39m: 	[31mError creating student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:24:56.436Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:25:31.768Z] [31merror[39m: 	[31mError creating student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:25:31.778Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: Student validation failed: DOB: Cast to date failed for value "20-12-2001" (type string) at path "DOB"[39m
+[2024-07-02T07:26:01.736Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:26:01.755Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:26:01.761Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:30:35.278Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:30:35.308Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:30:35.321Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:33:02.416Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:33:02.433Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:33:02.441Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:33:26.954Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:33:26.995Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:33:27.009Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:35:11.573Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:35:12.966Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:35:12.990Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:36:00.110Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:36:00.138Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:36:00.146Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:36:03.378Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:36:03.398Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:37:34.771Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:37:34.789Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:37:34.797Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:41:53.150Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:41:53.172Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:41:53.179Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:41:58.347Z] [31merror[39m: 	[31mError creating student: E11000 duplicate key error collection: test.students index: phoneNumber_1 dup key: { phoneNumber: "0111333222" }[39m
+[2024-07-02T07:41:58.350Z] [31merror[39m: 	[31mErrorHandler() method error: Error: An error occurred during create student: E11000 duplicate key error collection: test.students index: phoneNumber_1 dup key: { phoneNumber: "0111333222" }[39m
+[2024-07-02T07:44:08.561Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:44:08.589Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:44:08.597Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-02T07:44:21.325Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "custom",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY) or month out of range",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:44:21.328Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:45:46.858Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:45:47.133Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:45:47.148Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:45:47.154Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:45:47.091Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:45:47.177Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:45:47.178Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:45:47.189Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:45:47.102Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:45:47.191Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:45:47.193Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:45:47.207Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:45:47.209Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:45:47.210Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:45:47.209Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:45:47.214Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:45:47.216Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:47:32.740Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:47:32.753Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:47:32.819Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:47:32.821Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:47:37.363Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:47:37.382Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:47:37.396Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:47:37.399Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:47:37.415Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:47:37.416Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:47:37.419Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:47:37.420Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:47:37.421Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:47:37.431Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:47:37.433Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:47:37.440Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:47:37.441Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:49:53.396Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:49:53.407Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:49:53.460Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:49:53.463Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:49:57.607Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:49:57.631Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:49:57.638Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:49:57.641Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:49:57.728Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:49:57.729Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:49:57.734Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:49:57.735Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:49:57.737Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:49:57.807Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:49:57.808Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:49:57.812Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:49:57.814Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:53:45.852Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:53:45.863Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:53:45.932Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T07:53:45.936Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T07:53:49.532Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:53:49.538Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:53:49.553Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:53:49.556Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:53:49.566Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:53:49.567Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:53:49.585Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:53:49.586Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:53:49.587Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T07:53:49.605Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T07:53:49.606Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T07:53:49.618Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T07:53:49.619Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:00:05.072Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:00:05.086Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:00:05.152Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:00:05.159Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:00:08.229Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:00:08.236Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:00:08.241Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:00:08.244Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:00:08.256Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:00:08.258Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:00:08.260Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:00:08.261Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:00:08.262Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:00:08.273Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:00:08.274Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:00:08.291Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:00:08.292Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:01:25.103Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:01:25.119Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:01:25.180Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:01:25.182Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:01:30.853Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:01:30.862Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:01:30.869Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:01:30.875Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:01:30.898Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:01:30.900Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:01:30.903Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:01:30.904Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:01:30.905Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:01:30.922Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:01:30.923Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:01:30.927Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:01:30.930Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:02:26.101Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:02:26.109Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:02:26.178Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:02:26.181Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:02:29.431Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:02:29.435Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:02:29.446Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:02:29.448Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:02:29.457Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:02:29.458Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:02:29.460Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:02:29.461Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:02:29.463Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:02:29.473Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:02:29.474Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:02:29.477Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:02:29.478Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:02:54.891Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:02:54.943Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:02:55.030Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:02:55.032Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:02:59.708Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:02:59.713Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:02:59.717Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:02:59.718Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:02:59.726Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:02:59.727Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:02:59.728Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:02:59.729Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:02:59.730Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:02:59.738Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:02:59.739Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:02:59.747Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:02:59.748Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:04:56.230Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:04:56.253Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:04:56.364Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:04:56.366Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:05:01.391Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:05:01.396Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:05:01.400Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:05:01.402Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:05:01.412Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:05:01.414Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:05:01.432Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:05:01.435Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:05:01.437Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:05:01.458Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:05:01.459Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:05:01.462Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:05:01.463Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:05:56.151Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:05:56.195Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:05:56.254Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:05:56.257Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:05:59.970Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:05:59.981Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:05:59.986Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:05:59.988Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:05:59.998Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:06:00.000Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:06:00.018Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:06:00.022Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:06:00.024Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:06:00.044Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:06:00.046Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:06:00.060Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:06:00.061Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:07:00.095Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:07:00.118Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:07:00.169Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-02T08:07:00.171Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-02T08:07:02.432Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:07:02.438Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:07:02.442Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:07:02.444Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:07:02.452Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:07:02.453Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:07:02.455Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:07:02.455Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:07:02.456Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-02T08:07:02.464Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-02T08:07:02.465Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-02T08:07:02.467Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-02T08:07:02.467Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T06:58:10.562Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "validation": "regex",[39m
+[31m    "code": "invalid_string",[39m
+[31m    "message": "Invalid date format (DD-MM-YYYY)",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ][39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T06:58:10.572Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T06:58:10.691Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T06:58:10.693Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T06:58:13.666Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T06:58:13.672Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T06:58:13.679Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T06:58:13.682Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T06:58:13.696Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T06:58:13.697Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T06:58:13.699Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T06:58:13.701Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T06:58:13.702Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T06:58:13.715Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T06:58:13.717Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T06:58:13.719Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T06:58:13.720Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:03:15.794Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:03:15.804Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:03:15.812Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-03T07:03:48.273Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:03:48.444Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:03:48.447Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:03:48.448Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:03:48.505Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:03:48.506Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:03:48.516Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:03:48.518Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:03:48.519Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:03:48.527Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:03:48.529Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:03:48.531Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:03:48.533Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:03:48.805Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:03:48.812Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:08:01.155Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:08:01.168Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:08:01.172Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:08:01.173Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:08:01.195Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:08:01.197Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:08:01.199Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:08:01.200Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:08:01.201Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:08:01.246Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:08:01.247Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:08:01.251Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:08:01.252Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:08:04.186Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:08:04.192Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:09:52.561Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:09:52.571Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:09:52.574Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:09:52.576Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:09:52.584Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:09:52.585Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:09:52.587Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:09:52.588Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:09:52.589Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:09:52.595Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:09:52.596Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:09:52.597Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:09:52.599Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:09:53.469Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:09:53.474Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:11:31.143Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:11:31.156Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:11:31.159Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:11:31.162Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:11:31.172Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:11:31.173Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:11:31.190Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:11:31.191Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:11:31.192Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:11:31.201Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:11:31.203Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:11:31.206Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:11:31.207Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:11:34.132Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:11:34.140Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:13:58.614Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:13:58.632Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:14:00.043Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:14:00.051Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:14:00.054Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:14:00.056Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:14:00.065Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:14:00.066Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:14:00.067Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:14:00.068Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:14:00.069Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:14:00.076Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:14:00.077Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:14:00.078Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:14:00.079Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:16:47.699Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:16:47.712Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:16:48.290Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:16:48.297Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:16:48.299Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:16:48.300Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:16:48.307Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:16:48.308Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:16:48.323Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:16:48.325Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:16:48.326Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:16:48.335Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:16:48.336Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:16:48.338Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:16:48.339Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:20:24.566Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:20:24.574Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:20:24.578Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:20:24.579Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:20:24.587Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:20:24.589Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:20:24.591Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:20:24.592Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:20:24.593Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:20:24.602Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:20:24.603Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:20:24.605Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:20:24.606Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:20:27.161Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:20:27.168Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:22:58.744Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:22:58.838Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:22:58.846Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:22:58.849Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:22:58.860Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:22:58.862Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:22:58.871Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:22:58.871Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:22:58.872Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:22:58.878Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:22:58.879Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:22:58.891Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:22:58.893Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:23:00.665Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:23:00.673Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:27:21.185Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:27:21.191Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:27:21.195Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:27:21.196Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:27:21.207Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:27:21.211Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:27:21.215Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:27:21.217Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:27:21.218Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:27:21.223Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:27:21.224Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:27:21.228Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:27:21.230Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:27:23.213Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:27:23.219Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:30:38.934Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:30:38.943Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:30:38.947Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:30:38.949Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:30:38.958Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:30:38.959Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:30:38.973Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:30:38.974Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:30:38.975Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:30:38.983Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:30:38.984Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:30:38.989Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:30:38.990Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:30:40.757Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:30:40.765Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:32:42.196Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:32:42.206Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:32:42.210Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:32:42.212Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:32:42.219Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:32:42.220Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:32:42.235Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:32:42.236Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:32:42.237Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:32:42.245Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:32:42.246Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:32:42.248Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:32:42.248Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:32:44.745Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:32:44.752Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:33:07.535Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:33:07.542Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:33:07.547Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2024-07-03T07:33:33.582Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:33:33.589Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:33:33.593Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:33:33.594Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:33:33.604Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:33:33.605Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:33:33.606Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:33:33.607Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:33:33.608Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:33:33.615Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:33:33.616Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:33:33.617Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:33:33.618Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:33:37.315Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:33:37.324Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:34:17.790Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:34:17.798Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:34:17.800Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:34:17.801Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:34:17.810Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:34:17.812Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:34:17.819Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:34:17.821Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:34:17.822Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:34:17.827Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:34:17.828Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:34:17.831Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:34:17.833Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:34:20.200Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:34:20.207Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:35:08.197Z] [31merror[39m: 	[31mUserService ValidateInput() error: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "object",[39m
+[31m    "received": "string",[39m
+[31m    "path": [[39m
+[31m      "fullName"[39m
+[31m    ],[39m
+[31m    "message": "Expected object, received string"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "DOB"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "expected": "'Male' | 'Female' | 'Other'",[39m
+[31m    "received": "undefined",[39m
+[31m    "code": "invalid_type",[39m
+[31m    "path": [[39m
+[31m      "gender"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "phoneNumber"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m
+[2024-07-03T07:35:08.206Z] [31merror[39m: 	[31mErrorHandler() method error: Error: The input provided is invalid[39m
+[2024-07-03T07:35:09.680Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:35:09.684Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:35:09.688Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:35:09.689Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:35:09.696Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:35:09.697Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:35:09.709Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:35:09.711Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:35:09.712Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m
+[2024-07-03T07:35:09.722Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2024-07-03T07:35:09.723Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2024-07-03T07:35:09.725Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2024-07-03T07:35:09.726Z] [32minfo[39m: 	[32mMongoDB disconnected and listeners removed[39m

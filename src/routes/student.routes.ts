@@ -152,6 +152,7 @@ studentRoutes.post(
   async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { courseId, stdId } = req.params;
+
       const course = await studentController.removeRegister(stdId, courseId);
       return res
         .status(StatusCode.OK)

@@ -1,3 +1,4 @@
+// import moment from "moment";
 import mongoose from "mongoose";
 
 const StudentSchema = new mongoose.Schema(
@@ -18,6 +19,7 @@ const StudentSchema = new mongoose.Schema(
   {
     toJSON: {
       transform(_doc, ret) {
+        ret.DOB = new Date(ret.DOB).toLocaleDateString("en-GB");
         delete ret._id;
         delete ret.__v;
       },

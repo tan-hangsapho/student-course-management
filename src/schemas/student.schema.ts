@@ -14,20 +14,27 @@ export const StudentSchema = z.object({
   }),
   DOB: z
     .string()
-    .regex(/^\d{4}-\d{2}-\d{2}$/, {
-      message: "Invalid date format (YYYY-MM-DD)",
+    .regex(/^\d{2}-\d{2}-\d{4}$/, {
+      message: "Invalid date format (DD-MM-YYYY)",
     })
     .refine(
       (dateStr) => {
         const parts = dateStr.split("-");
         if (parts.length !== 3) return false;
-        const day = parseInt(parts[2], 10);
+        const day = parseInt(parts[0], 10);
         const month = parseInt(parts[1], 10);
-        const year = parseInt(parts[0], 10);
+        const year = parseInt(parts[2], 10);
         if (isNaN(day) || isNaN(month) || isNaN(year)) return false;
-        return !isNaN(new Date(year, month - 1, day).getTime());
+        // Check if month is within valid range (1 to 12)
+        return (
+          month >= 1 &&
+          month <= 12 &&
+          !isNaN(new Date(year, month - 1, day).getTime())
+        );
       },
-      { message: "Invalid date format (YYYY-MM-DD)" }
+      {
+        message: "Invalid date format (DD-MM-YYYY) or month out of range",
+      }
     ),
   gender: z.enum(["Male", "Female", "Other"]),
   phoneNumber: z

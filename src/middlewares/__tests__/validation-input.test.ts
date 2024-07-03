@@ -7,7 +7,7 @@ describe("Student Schema Validation", () => {
         en: "John Doe",
         km: "ចិន ដូ",
       },
-      DOB: "01/01/1990", // Invalid date format
+      DOB: "1990/01/01", // Invalid date format
       gender: "Male",
       phoneNumber: "12345678",
       isDeleted: false,
@@ -17,7 +17,7 @@ describe("Student Schema Validation", () => {
     const result = StudentSchema.safeParse(invalidStudent);
     expect(result.success).toBe(false);
     expect(result.error?.errors[0].message).toContain(
-      "Invalid date format (YYYY-MM-DD)"
+      "Invalid date format (DD-MM-YYYY)"
     );
   });
 
@@ -27,7 +27,7 @@ describe("Student Schema Validation", () => {
         en: "John Doe",
         km: "ចិន ដូ",
       },
-      DOB: "1990-01-01",
+      DOB: "01-01-1990",
       gender: "Male",
       phoneNumber: "abc", // Invalid phone number format
       isDeleted: false,

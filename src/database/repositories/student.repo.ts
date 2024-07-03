@@ -9,8 +9,28 @@ import { QueryParams, StudentUpdate } from "./@types/student.type";
 export class StudentRepository {
   async createStudent(stdData: IStudent) {
     try {
-      const std = await StudentModel.create(stdData);
-      return std;
+      // Convert DOB from dd-mm-yyyy to Date object
+      const [day, month, year] = stdData.DOB.split("-").map(Number);
+      const dob = new Date(year, month - 1, day);
+
+      // Create a new student document with converted DOB
+      const studentData = {
+        ...stdData,
+        DOB: dob,
+      };
+
+      const std = await StudentModel.create(studentData);
+
+      // Convert DOB back to dd-mm-yyyy format for the response
+      const formattedDOB = `${String(day).padStart(2, "0")}-${String(
+        month
+      ).padStart(2, "0")}-${year}`;
+
+      // Return the student with the formatted date
+      return {
+        ...std.toJSON(),
+        DOB: formattedDOB,
+      };
     } catch (error) {
       throw error;
     }

@@ -3,7 +3,7 @@ export interface IStudent {
     en: string;
     km: string;
   };
-  DOB: Date;
+  DOB: string;
   gender: "Male" | "Female" | "Other";
   phoneNumber: string;
   courseEnrolled?: string[];
